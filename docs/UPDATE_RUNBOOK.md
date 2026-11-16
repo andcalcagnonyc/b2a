@@ -3,6 +3,7 @@
 Produces one new edition of the B2A Economy dashboard. Only `data.js` changes, unless a defect in `index.html` has to be fixed.
 
 - Repository: `andcalcagnonyc/b2a`, branch `main`
+- Live site: https://andcalcagnonyc.github.io/b2a/ (GitHub Pages, redeploys on every push to `main`)
 - Live artifact: https://claude.ai/artifact/3SZtPVT6e7Yy5D3jh7FhXu (slug `13c42366-a6e2-4710-b9a5-beeb5715b9b0`)
 - Edition naming: `YYYY.MM`
 
