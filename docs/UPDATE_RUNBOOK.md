@@ -60,7 +60,7 @@ Have a separate agent that did not make the edits check: the changed figures aga
 - `meta.asOf`, `meta.version`, `meta.nextUpdate`
 - `qa.data`: what was checked, what was fixed, what stays open
 - `changelog`: add the new edition at the top with a one or two sentence summary of what changed
-- `README.md`: current edition line
+- `README.md`: current edition line and the edition in the citation line
 
 ### 7. Validate
 
@@ -68,7 +68,13 @@ Have a separate agent that did not make the edits check: the changed figures aga
 node scripts/validate.mjs
 ```
 
-It must print `OK`. If a browser is available, open each of the six views once and confirm there are no script errors.
+It must print `OK`. Then rebuild the open dataset:
+
+```
+node scripts/export.mjs
+```
+
+Update the row counts in the README's open dataset table if they changed, and `version` and `date-released` in `CITATION.cff`. If the method itself changed, update `METHODOLOGY.md` and add a row to its method changes table. If a browser is available, open each of the six views once and confirm there are no script errors.
 
 ### 8. Commit and publish
 

@@ -1,0 +1,2893 @@
+{
+  "meta": {
+    "asOf": "Nov 11, 2026",
+    "version": "2026.11",
+    "nextUpdate": "Dec 2026",
+    "currentYear": 2026,
+    "thesis": "AI agents are becoming customers. Businesses that blocked bots now have to win them.",
+    "summary": "This dashboard starts from a16z's B2A (business to agent) thesis, checks each of its numbers against the original source, adds independent context, and projects the main measures to 2030 under three scenarios. Move the year and scenario in the bar below and every view follows."
+  },
+  "article": {
+    "title": "Welcome to the B2A Economy",
+    "authors": "Olivia Moore, Justine Moore",
+    "published": "Nov 11, 2026"
+  },
+  "sources": {
+    "a16z": {
+      "org": "a16z",
+      "title": "Welcome to the B2A Economy",
+      "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy",
+      "published": "2026-11-11"
+    },
+    "shopify_q1": {
+      "org": "Shopify (Q1 2026 earnings call, via Digital Commerce 360)",
+      "title": "Shopify Q1 FY26: revenue, GMV and AI",
+      "url": "https://www.digitalcommerce360.com/2026/05/06/shopify-revenue-gmv-ai-q1-fy26/",
+      "published": "2026-05-06"
+    },
+    "shopify_q3": {
+      "org": "Shopify (Q3 2026 results, via PPC Land)",
+      "title": "Shopify revenue gains 32% as AI-referred orders rise 3.3x",
+      "url": "https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/",
+      "published": "2026-11-03"
+    },
+    "human_oct": {
+      "org": "HUMAN Security",
+      "title": "State of Agentic Traffic, October 2026",
+      "url": "https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/",
+      "published": "2026-11-09"
+    },
+    "human_jul": {
+      "org": "HUMAN Security",
+      "title": "State of Agentic Traffic, July 2026",
+      "url": "https://www.humansecurity.com/learn/blog/state-of-agentic-traffic-july-2026-publishers-claim-highest-share-of-agentic-traffic/",
+      "published": "2026-08-06"
+    },
+    "human_2025": {
+      "org": "HUMAN Security",
+      "title": "2026 State of AI Traffic and Cyberthreat Benchmark Report",
+      "url": "https://www.humansecurity.com/newsroom/2026-state-of-ai-traffic-cyberthreat-benchmark-report/",
+      "published": "2026-03-26"
+    },
+    "similarweb_journey": {
+      "org": "Similarweb and Statista (via Links.me recap)",
+      "title": "State of Ecommerce 2026: the AI shopper journey",
+      "url": "https://links.me/blog/ai/state-of-ecommerce-2026-ai-shopper-journey/",
+      "published": "2026-09-15"
+    },
+    "similarweb_ai": {
+      "org": "Similarweb",
+      "title": "The AI consumer journey",
+      "url": "https://aisearch.similarweb.com/blog/ai-consumer-journey/",
+      "published": "2026-03-19"
+    },
+    "openai_wau": {
+      "org": "OpenAI (via AFP / Kuwait Times)",
+      "title": "OpenAI aims to make ChatGPT an app store for AI",
+      "url": "https://kuwaittimes.com/article/50699/world/openai-aims-to-make-chatgpt-an-app-store-for-ai/",
+      "published": "2026-09-30"
+    },
+    "chatgpt_hist": {
+      "org": "OpenAI statements (compiled by Backlinko, The Next Web and AFP)",
+      "title": "ChatGPT statistics",
+      "url": "https://backlinko.com/chatgpt-stats",
+      "published": "2026"
+    },
+    "github_octoverse": {
+      "org": "GitHub",
+      "title": "Octoverse 2026",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "published": "2026-10-28"
+    },
+    "supabase_f": {
+      "org": "Supabase",
+      "title": "Series F announcement",
+      "url": "https://supabase.com/blog/supabase-series-f",
+      "published": "2026-06-04"
+    },
+    "neon_databricks": {
+      "org": "Databricks",
+      "title": "Databricks agrees to acquire Neon",
+      "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-agrees-acquire-neon-help-developers-deliver-ai-systems",
+      "published": "2025-05-14"
+    },
+    "stripe_projects": {
+      "org": "Stripe",
+      "title": "Stripe Projects adds new agents, providers and developer controls",
+      "url": "https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls",
+      "published": "2026-06-11"
+    },
+    "vercel_ship": {
+      "org": "Vercel",
+      "title": "Vercel Ship 2026 recap",
+      "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+      "published": "2026-10-15"
+    },
+    "digiday_chatgpt": {
+      "org": "Digiday",
+      "title": "ChatGPT is about to show brands their mention count",
+      "url": "https://digiday.com/marketing/chatgpt-is-about-to-show-brands-their-mention-count/",
+      "published": "2026-11-09"
+    },
+    "tc_instinct": {
+      "org": "TechCrunch",
+      "title": "Instinct raises $1B Series C at a $10B valuation",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation",
+      "published": "2026-09-28"
+    },
+    "imperva_2026": {
+      "org": "Imperva (Thales)",
+      "title": "Bad Bot Report 2026",
+      "url": "https://www.imperva.com/blog/bad-bot-report-2026-bots-agentic-age/",
+      "published": "2026-04-29"
+    },
+    "cloudflare_june": {
+      "org": "Cloudflare Radar (via SiliconANGLE)",
+      "title": "Bot and agent traffic passes human traffic",
+      "url": "https://siliconangle.com/2026/06/04/ai-agent-web-traffic-surpassed-humans-lending-weight-dead-internet-theory/",
+      "published": "2026-06-04"
+    },
+    "cloudflare_2025": {
+      "org": "Cloudflare Radar 2025 Year in Review (via PPC Land)",
+      "title": "AI crawlers consume 4.2% of web traffic",
+      "url": "https://ppc.land/ai-crawlers-now-consume-4-2-of-web-traffic-as-internet-grows-19-in-2025/",
+      "published": "2025-12-20"
+    },
+    "cloudflare_q3": {
+      "org": "Cloudflare (Q3 2026 results, via PPC Land)",
+      "title": "Cloudflare revenue gains 39% to $782.5M",
+      "url": "https://ppc.land/cloudflare-revenue-gains-39-to-782-5m-fastest-growth-in-nearly-four-years/",
+      "published": "2026-11-06"
+    },
+    "adobe_oct": {
+      "org": "Adobe",
+      "title": "AI traffic delivers higher revenue per visit ahead of the holidays",
+      "url": "https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday",
+      "published": "2026-10-29"
+    },
+    "adobe_jul": {
+      "org": "Adobe Analytics (via Digital Commerce 360)",
+      "title": "AI referral traffic data, July 2026",
+      "url": "https://www.digitalcommerce360.com/2026/08/19/adobe-ai-referral-traffic-data-july-2026/",
+      "published": "2026-08-19"
+    },
+    "adobe_q1": {
+      "org": "Adobe Analytics (via TechCrunch)",
+      "title": "AI traffic to US retailers rose 393% in Q1",
+      "url": "https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/",
+      "published": "2026-04-16"
+    },
+    "adobe_holiday": {
+      "org": "Adobe",
+      "title": "2025 holiday shopping season results",
+      "url": "https://news.adobe.com/news/2026/01/adobe-holiday-shopping-season",
+      "published": "2026-01-07"
+    },
+    "mcp_registry": {
+      "org": "eSEOspace (crawl of the official MCP registry)",
+      "title": "State of MCP, October 2026",
+      "url": "https://eseospace.com/blog/state-of-mcp-october-2026/",
+      "published": "2026-10-28"
+    },
+    "google_code": {
+      "org": "Google (via TechSpot)",
+      "title": "AI now generates 75% of new code at Google",
+      "url": "https://www.techspot.com/news/112152-google-ai-now-generates-75-new-code-up.html",
+      "published": "2026-04"
+    },
+    "chartbeat": {
+      "org": "Chartbeat (via Relevant Audience)",
+      "title": "Google search traffic to publishers down 40%",
+      "url": "https://www.relevantaudience.com/seo/chartbeat-google-search-publisher-traffic-down-40-percent/",
+      "published": "2026-09-25"
+    },
+    "walmart_ppc": {
+      "org": "Walmart (via PPC Land, citing WIRED)",
+      "title": "Walmart's ChatGPT checkout results",
+      "url": "https://ppc.land/walmarts-chatgpt-checkout-flopped-heres-what-comes-next/",
+      "published": "2026-03-18"
+    },
+    "mckinsey_ac": {
+      "org": "McKinsey (via Digital Commerce 360)",
+      "title": "The agentic commerce opportunity",
+      "url": "https://www.digitalcommerce360.com/2025/10/20/mckinsey-forecast-5-trillion-agentic-commerce-sales-2030/",
+      "published": "2025-10-20"
+    },
+    "ms_ac": {
+      "org": "Morgan Stanley Research",
+      "title": "Agentic commerce: market impact and outlook",
+      "url": "https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook",
+      "published": "2025-12"
+    },
+    "emarketer_2026": {
+      "org": "EMARKETER",
+      "title": "AI Commerce 2026",
+      "url": "https://www.emarketer.com/content/ai-commerce-2026",
+      "published": "2026-01"
+    },
+    "ppc_muse": {
+      "org": "HUMAN Security (via PPC Land)",
+      "title": "Meta's Muse accounts for 72% of AI agent requests",
+      "url": "https://ppc.land/metas-muse-accounts-for-72-of-ai-agent-requests-human-finds/",
+      "published": "2026-09-28"
+    },
+    "bain_ac": {
+      "org": "Bain & Company",
+      "title": "2030 Forecast: How Agentic AI Will Reshape US Retail",
+      "url": "https://www.bain.com/insights/2030-forecast-how-agentic-ai-will-reshape-us-retail-snap-chart/",
+      "published": "2025-12-17"
+    },
+    "emarketer_ac": {
+      "org": "EMARKETER",
+      "title": "Retailers hold AI commerce advantage over ChatGPT",
+      "url": "https://www.emarketer.com/content/retailers-hold-ai-commerce-advantage-over-chatgpt",
+      "published": "2026-08"
+    },
+    "juniper_ac": {
+      "org": "Juniper Research (via TechNode Global)",
+      "title": "Agentic commerce spending can reach $1.5 trillion by 2030",
+      "url": "https://technode.global/2026/04/08/agentic-commerce-spending-can-reach-1-5-trillion-by-2030-study-finds/",
+      "published": "2026-04-08"
+    },
+    "edgardunn": {
+      "org": "Edgar, Dunn & Company",
+      "title": "Agentic commerce: the future of payments",
+      "url": "https://www.edgardunn.com/articles/agentic-commerce-the-future-of-payments",
+      "published": "2025-05-12"
+    },
+    "rolandberger": {
+      "org": "Roland Berger",
+      "title": "The machine customer",
+      "url": "https://www.rolandberger.com/en/Insights/Publications/The-machine-customer.html",
+      "published": "2026-10-13"
+    },
+    "forrester_commerce": {
+      "org": "Forrester",
+      "title": "Predictions 2027: Digital Commerce Enters Its Post-Click Era",
+      "url": "https://forrester.com/blogs/predictions-2027-digital-commerce-enters-its-post-click-era",
+      "published": "2026-10-23"
+    },
+    "forrester_b2b": {
+      "org": "Forrester",
+      "title": "2027 B2B Go-To-Market Predictions",
+      "url": "https://www.forrester.com/press-newsroom/forresters-2027-b2b-go-to-market-predictions-ai-agents-will-influence-75-of-b2b-purchase-decisions/",
+      "published": "2026-10-21"
+    },
+    "gartner_pred": {
+      "org": "Gartner",
+      "title": "Top Predictions for IT Organizations and Users in 2026 and Beyond",
+      "url": "https://gartner.com/en/newsroom/press-releases/2025-10-21-gartner-unveils-top-predictions-for-it-organizations-and-users-in-2026-and-beyond",
+      "published": "2025-10-21"
+    },
+    "gartner_cancel": {
+      "org": "Gartner",
+      "title": "Over 40% of agentic AI projects will be canceled by end of 2027",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027",
+      "published": "2025-06-25"
+    },
+    "gartner_2027": {
+      "org": "Gartner (via IT Brief)",
+      "title": "Top Strategic Predictions for 2027 and Beyond",
+      "url": "https://itbrief.com.au/story/gartner-forecasts-ai-strain-on-services-costs-jobs",
+      "published": "2026-09-28"
+    },
+    "gartner_spend_may": {
+      "org": "Gartner",
+      "title": "Worldwide AI spending to grow 47% in 2026",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+      "published": "2026-05-19"
+    },
+    "gartner_2q26": {
+      "org": "Gartner 2Q26 AI spending forecast (via Software Strategies Blog)",
+      "title": "Gartner's $5.95 trillion AI forecast",
+      "url": "https://softwarestrategiesblog.com/2026/08/05/gartner-5-95-trillion-ai-forecast-chatbot-era-2027-deadline/",
+      "published": "2026-07-24"
+    },
+    "gartner_dev": {
+      "org": "Gartner",
+      "title": "Top strategic trends in software engineering for 2025 and beyond",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-07-01-gartner-identifies-the-top-strategic-trends-in-software-engineering-for-2025-and-beyond",
+      "published": "2025-07-01"
+    },
+    "mm_agents": {
+      "org": "MarketsandMarkets",
+      "title": "AI agents market worth $52.62 billion by 2030",
+      "url": "https://prnewswire.co.uk/news-releases/ai-agents-market-worth-52-62-billion-by-2030---exclusive-report-by-marketsandmarkets-302435498.html",
+      "published": "2025-04-23"
+    },
+    "gvr_agents": {
+      "org": "Grand View Research",
+      "title": "AI agents market size to hit $50.31 billion by 2030",
+      "url": "https://www.prnewswire.co.uk/news-releases/ai-agents-market-size-to-hit-50-31-billion-by-2030-at-cagr-45-8---grand-view-research-inc-302447061.html",
+      "published": "2025-05-06"
+    },
+    "tbrc_agents": {
+      "org": "The Business Research Company (via 24/7 Wall St.)",
+      "title": "AI agent market estimate",
+      "url": "https://247wallst.com/investing/2026/09/29/going-rogue-and-getting-a-wallet-the-53-billion-ai-commerce-crisis-no-one-is-ready-for/",
+      "published": "2026-09-29"
+    },
+    "deloitte_tmt": {
+      "org": "Deloitte (via Insurance-Canada)",
+      "title": "TMT Predictions 2026",
+      "url": "https://insurance-canada.ca/2025/12/04/deloitte-technology-predictions-ai-reality/",
+      "published": "2025-12-04"
+    },
+    "idc_agents": {
+      "org": "IDC",
+      "title": "Agent Adoption: The IT Industry's Next Great Inflection Point",
+      "url": "https://www.idc.com/resource-center/blog/agent-adoption-the-it-industrys-next-great-inflection-point/",
+      "published": "2025-12-10"
+    },
+    "mgi": {
+      "org": "McKinsey Global Institute",
+      "title": "Agents, robots, and us",
+      "url": "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai",
+      "published": "2025-11-25"
+    },
+    "capgemini": {
+      "org": "Capgemini Research Institute",
+      "title": "Agentic AI: a $450 billion opportunity by 2028",
+      "url": "https://www.capgemini.com/gb-en/news/press-releases/trust-and-human-ai-collaboration-set-to-define-the-next-era-of-agentic-ai-unlocking-450-billion-opportunity-by-2028/",
+      "published": "2025-07-16"
+    },
+    "emarketer_search": {
+      "org": "EMARKETER (via MediaPost)",
+      "title": "AI search ad spend forecast to reach $26B by 2029",
+      "url": "https://www.mediapost.com/publications/article/406378/ai-search-ad-spend-forecast-to-reach-26b-by-2029.html",
+      "published": "2025-06"
+    },
+    "emarketer_ads": {
+      "org": "EMARKETER (via PPC Land)",
+      "title": "US AI ad spend hits $68B by 2030",
+      "url": "https://ppc.land/emarketer-says-us-ai-ad-spend-hits-68bn-by-2030-and-chatgpt-misses-most-of-it/",
+      "published": "2026-06-04"
+    },
+    "gartner_b2b": {
+      "org": "Gartner (via Digital Commerce 360)",
+      "title": "AI agents to handle $15 trillion in B2B purchases by 2028",
+      "url": "https://www.digitalcommerce360.com/2025/11/28/gartner-ai-agents-15-trillion-in-b2b-purchases-by-2028/",
+      "published": "2025-11-28"
+    },
+    "mckinsey_bank": {
+      "org": "McKinsey (via American Banker)",
+      "title": "Customer use of AI agents will depress bank profits",
+      "url": "https://www.americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey",
+      "published": "2025-10-23"
+    },
+    "chainalysis_x402": {
+      "org": "Chainalysis (via AI Weekly)",
+      "title": "138M Base x402 bot payments, 87% under 10 cents",
+      "url": "https://aiweekly.co/alerts/chainalysis-138m-base-x402-bot-payments-87-under-10-cents",
+      "published": "2026-10-15"
+    },
+    "forkast_x402": {
+      "org": "Forkast (citing CoinDesk and Artemis)",
+      "title": "x402: 200 million transactions later, real volume is still tiny",
+      "url": "https://forkast.news/the-x402-foundation-activated-a-27-year-old-internet-code-200-million-transactions-later-the-real-volume-is-still-tiny/",
+      "published": "2026-08-04"
+    },
+    "forkast_europe": {
+      "org": "Forkast",
+      "title": "Europe has agent payment rails live across 30 banks",
+      "url": "https://forkast.news/europe-has-agent-payment-rails-live-across-30-banks-the-us-is-still-debating-who-pays-when-they-break/",
+      "published": "2026-09-18"
+    },
+    "forkast_trust": {
+      "org": "Forkast (citing Riskified and PYMNTS)",
+      "title": "73% use AI for shopping, 55% won't let it buy anything",
+      "url": "https://forkast.news/73-use-ai-for-shopping-55-wont-let-it-buy-anything-the-trust-gap-is-widening/",
+      "published": "2026-07-17"
+    },
+    "phocuswright": {
+      "org": "Phocuswright (via PhocusWire)",
+      "title": "AI surge: US behavioural shift in travel, 2026",
+      "url": "https://www.phocuswire.com/ai-surge-us-behavioral-shift-travel-phocuswright-research-2026",
+      "published": "2026"
+    },
+    "expedia_skift": {
+      "org": "Expedia survey (via Skift)",
+      "title": "Only 8% comfortable letting AI book travel",
+      "url": "https://skift.com/2026/04/14/expedia-ai-survey-travel-discovery-booking-8-percent/",
+      "published": "2026-04-14"
+    },
+    "ucp26": {
+      "org": "PPC Land",
+      "title": "Only 26 sites have implemented UCP",
+      "url": "https://ppc.land/only-26-sites-have-implemented-ucp-and-the-big-names-arent-among-them/",
+      "published": "2026-05-21"
+    },
+    "llms_ppc": {
+      "org": "PPC Land",
+      "title": "llms.txt adoption rises 8.8x but 97% of files get zero AI requests",
+      "url": "https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/",
+      "published": "2026-07-02"
+    },
+    "natural": {
+      "org": "FinTech Global",
+      "title": "Natural raises $30M to power payments for AI agents",
+      "url": "https://fintech.global/2026/07/21/natural-raises-30m-to-power-payments-for-ai-agents/",
+      "published": "2026-07-21"
+    },
+    "uschamber": {
+      "org": "US Chamber of Commerce Foundation and Ipsos",
+      "title": "Half of small business workers use AI",
+      "url": "https://www.uschamberfoundation.org/workforce/half-of-small-business-workers-use-ai-most-to-boost-productivity-not-automate-jobs",
+      "published": "2026-06-17"
+    },
+    "assort": {
+      "org": "Healthcare IT Today",
+      "title": "Assort Health raises $120 million Series C",
+      "url": "https://www.healthcareittoday.com/2026/07/06/assort-health-raises-120-million-series-c-telepatia-raises-33-million-series-a/",
+      "published": "2026-07-06"
+    },
+    "chrobinson": {
+      "org": "C.H. Robinson",
+      "title": "Agentic supply chains press release",
+      "url": "https://www.chrobinson.com/en-us/about-us/newsroom/press-releases/2026/100-trillion-data-points-fuel-chrobinson-agentic-supply-chains/",
+      "published": "2026-03-11"
+    },
+    "cisco_comsoc": {
+      "org": "Cisco (via IEEE ComSoc Technology Blog)",
+      "title": "Agentic AI to reshape WAN traffic",
+      "url": "https://techblog.comsoc.org/2026/05/26/cisco-report-agentic-ai-to-reshape-wan-traffic-ai-inference-will-be-25-of-total-traffic-by-2035/",
+      "published": "2026-05-26"
+    },
+    "harvey": {
+      "org": "Entrepreneur Loop (secondary, unverified)",
+      "title": "Harvey valued at $15.5B",
+      "url": "https://entrepreneurloop.com/harvey-ai-valuation-15-5b/",
+      "published": "2026-09-09"
+    },
+    "tempo_fortune": {
+      "org": "Fortune",
+      "title": "Stripe-backed Tempo launches mainnet and Machine Payments Protocol",
+      "url": "https://fortune.com/2026/03/18/stripe-tempo-paradigm-mpp-ai-payments-protocol/",
+      "published": "2026-03-18"
+    },
+    "catena": {
+      "org": "Fortune",
+      "title": "Catena Labs raises Series A for an AI-native bank",
+      "url": "https://fortune.com/2026/05/20/catena-labs-series-a-sean-neville-ai-native-bank/",
+      "published": "2026-05-20"
+    },
+    "ietf_wba": {
+      "org": "IETF",
+      "title": "Web Bot Auth: HTTP message signatures for automated traffic (working-group draft 01)",
+      "url": "https://www.ietf.org/ietf-ftp/internet-drafts/draft-ietf-webbotauth-httpsig-protocol-01.html",
+      "published": "2026-10-29"
+    },
+    "descope": {
+      "org": "BankInfoSecurity",
+      "title": "Descope gets $35M for AI agent identity controls",
+      "url": "https://www.bankinfosecurity.com/descope-gets-35m-for-ai-agent-identity-controls-governance-a-29624",
+      "published": "2025-10-02"
+    },
+    "kasada": {
+      "org": "Pulse 2.0",
+      "title": "Kasada raises $20 million for bot management and agentic defense",
+      "url": "https://pulse2.com/kasada-20-million-raised-for-bot-management-and-agentic-defense-platform/",
+      "published": "2026-02-07"
+    },
+    "riskified": {
+      "org": "The Paypers (citing Riskified)",
+      "title": "Agentic ecommerce: what a new report reveals about risk",
+      "url": "https://thepaypers.com/fraud-and-fincrime/expert-views/agentic-ecommerce-five-things-a-new-report-reveals-about-risk",
+      "published": "2026-11-03"
+    },
+    "serpapi_mcp": {
+      "org": "SerpApi",
+      "title": "The state of MCP: everything that changed in H1 2026",
+      "url": "https://serpapi.com/blog/the-state-of-mcp-everything-that-changed-in-h1-2026/",
+      "published": "2026-06-03"
+    },
+    "atlas_shut": {
+      "org": "Let's Data Science",
+      "title": "OpenAI shutters Atlas, folds features into ChatGPT",
+      "url": "https://letsdatascience.com/news/openai-shutters-atlas-folds-features-into-chatgpt-2116216f",
+      "published": "2026-08"
+    },
+    "parallel": {
+      "org": "Pulse 2.0",
+      "title": "Parallel Web Systems raises $100 million Series B",
+      "url": "https://pulse2.com/parallel-web-systems-100-million-series-b-at-2-billion-valuation-raised-to-scale-ai-agent-web-infrastructure/amp/",
+      "published": "2026-04-29"
+    },
+    "stellagent": {
+      "org": "Stellagent (secondary)",
+      "title": "OpenAI scales back Instant Checkout",
+      "url": "https://stellagent.ai/insights/openai-scales-back-instant-checkout",
+      "published": "2026-03"
+    },
+    "profound_d": {
+      "org": "Enterprise DNA (secondary)",
+      "title": "Profound raises $180M Series D",
+      "url": "https://enterprisedna.co/resources/news/profound-aeo-180m-series-d-ai-search-marketing-2026",
+      "published": "2026-09-15"
+    },
+    "braintrust": {
+      "org": "Pulse",
+      "title": "Braintrust lands $80M funding round",
+      "url": "https://www.pulse.bot/ai/news/braintrust-lands-80m-funding-round-to-become-the-observability-layer-for-ai-c2222350-8fba-4702-bb11-eb33d5112749",
+      "published": "2026-02-17"
+    },
+    "daytona": {
+      "org": "Pulse 2.0",
+      "title": "Daytona raises $60 million Series B at $1 billion valuation",
+      "url": "https://pulse2.com/daytona-raises-60-million-series-b-at-1-billion-valuation-to-build-agent-cloud-infrastructure/",
+      "published": "2026-10-22"
+    },
+    "elevenlabs": {
+      "org": "SiliconANGLE",
+      "title": "ElevenLabs triples valuation in $500M round",
+      "url": "https://siliconangle.com/2026/02/04/voice-ai-startup-elevenlabs-triples-valuation-500m-round/",
+      "published": "2026-02-04"
+    },
+    "sierra": {
+      "org": "CMSWire",
+      "title": "Sierra raises $950M at $15B valuation",
+      "url": "https://www.cmswire.com/customer-experience/sierra-raises-950m-at-15b-valuation-eyes-transformation-beyond-customer-support/",
+      "published": "2026-05-04"
+    },
+    "agentmail": {
+      "org": "TechCrunch",
+      "title": "AgentMail raises $6M to build an email service for AI agents",
+      "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
+      "published": "2026-03-10"
+    },
+    "mem0": {
+      "org": "TechCrunch",
+      "title": "Mem0 raises $24M to build the memory layer for AI apps",
+      "url": "https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/",
+      "published": "2025-10-28"
+    },
+    "apple_siri": {
+      "org": "SiliconANGLE",
+      "title": "Apple debuts Siri AI personal assistant",
+      "url": "https://siliconangle.com/2026/06/08/apple-debuts-siri-ai-personal-assistant-built-gemini/",
+      "published": "2026-06-08"
+    },
+    "emarketer_perplexity": {
+      "org": "EMARKETER",
+      "title": "Perplexity Comet, Amazon and the AI shopping agents ruling",
+      "url": "https://www.emarketer.com/content/perplexity-comet-amazon-ai-shopping-agents-ruling",
+      "published": "2026"
+    },
+    "shopappy": {
+      "org": "Shopappy (secondary analysis)",
+      "title": "Agent chargeback rules, holiday 2026",
+      "url": "https://shopappy.com/payments/card-networks/agent-chargeback-rules-holiday-2026",
+      "published": "2026"
+    }
+  },
+  "signalGroups": [
+    [
+      "commerce",
+      "Commerce and traffic"
+    ],
+    [
+      "coding",
+      "Coding agents"
+    ],
+    [
+      "platform",
+      "Agent platforms"
+    ],
+    [
+      "context",
+      "Independent context"
+    ]
+  ],
+  "signals": [
+    {
+      "id": "gh_pr",
+      "group": "coding",
+      "top": true,
+      "who": "GitHub",
+      "label": "of pull requests began as an agent's draft",
+      "value": 40,
+      "prev": 17,
+      "display": "40%+",
+      "unit": "%",
+      "period": "Sep 2026, up from Mar 2026",
+      "src": "github_octoverse",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article",
+      "note": "GitHub also counts 110M agent-started pull requests in September 2026, about six times March."
+    },
+    {
+      "id": "shop_traffic",
+      "group": "commerce",
+      "top": true,
+      "who": "Shopify",
+      "label": "growth in AI-driven traffic to Shopify stores, year over year",
+      "value": 8,
+      "display": "8x",
+      "unit": "x",
+      "period": "Q1 2026",
+      "src": "shopify_q1",
+      "cls": "reported",
+      "verified": "partial",
+      "via": "a16z article",
+      "note": "The figure matches Shopify's Q1 2026 earnings call. The blog post the article links to does not contain it."
+    },
+    {
+      "id": "human_8x",
+      "group": "commerce",
+      "top": true,
+      "who": "HUMAN Security",
+      "label": "growth in agentic browser traffic in two months",
+      "value": 8,
+      "display": "8x",
+      "unit": "x",
+      "period": "Aug to Oct 2026",
+      "src": "human_oct",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article",
+      "note": "+697.5% from August to October. Measured on HUMAN's own customer network, which leans toward ecommerce, media and travel. It is not the whole web. Part of the jump is one new agent, Meta's Muse, launched Sep 8."
+    },
+    {
+      "id": "stripe_cli",
+      "group": "coding",
+      "top": true,
+      "who": "Stripe",
+      "label": "of command-line requests for API resources are made by agents",
+      "value": 70,
+      "display": "70%",
+      "unit": "%",
+      "period": "Jun 2026",
+      "src": "stripe_projects",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article"
+    },
+    {
+      "id": "supabase",
+      "group": "coding",
+      "top": true,
+      "who": "Supabase",
+      "label": "of new databases are started by an AI tool",
+      "value": 60,
+      "display": "60%+",
+      "unit": "%",
+      "period": "Jun 2026",
+      "src": "supabase_f",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article",
+      "note": "Database launches rose about 600% in a year. Announced with a $500M Series F."
+    },
+    {
+      "id": "vercel",
+      "group": "coding",
+      "top": true,
+      "who": "Vercel",
+      "label": "growth in agent-triggered deployments in twelve months",
+      "value": 28,
+      "display": "28x",
+      "unit": "x",
+      "period": "12 months to Oct 2026",
+      "src": "vercel_ship",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article",
+      "note": "A growth multiple only. Vercel's recap gives no share of total deployments."
+    },
+    {
+      "id": "shop_orders",
+      "group": "commerce",
+      "who": "Shopify",
+      "label": "growth in orders from AI-powered search, year over year",
+      "value": 13,
+      "display": "~13x",
+      "unit": "x",
+      "period": "Q1 2026",
+      "src": "shopify_q1",
+      "cls": "reported",
+      "verified": "partial",
+      "via": "a16z article",
+      "note": "From the Q1 2026 earnings call. By Q3 2026 Shopify reported 3.3x year over year on a much larger base."
+    },
+    {
+      "id": "muse_share",
+      "group": "commerce",
+      "who": "Meta Muse",
+      "label": "of observed agentic requests came from one agent",
+      "value": 59,
+      "display": "59%",
+      "unit": "%",
+      "period": "Oct 2026",
+      "src": "human_oct",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article (rounded to 60%)",
+      "note": "OpenAI products combined reached about 30%. Measured on HUMAN's own customer network, which leans toward ecommerce, media and travel. It is not the whole web."
+    },
+    {
+      "id": "journeys",
+      "group": "commerce",
+      "who": "Similarweb",
+      "label": "of US shopper journeys visited an AI platform before a retail site",
+      "value": 11.4,
+      "prev": 4.5,
+      "display": "11.4%",
+      "unit": "%",
+      "period": "Jun 2026, up from Jul 2024",
+      "src": "similarweb_journey",
+      "cls": "reported",
+      "verified": "partial",
+      "via": "a16z article (as about 11%, no link)",
+      "note": "US desktop sessions only, a qualifier the article leaves out. Read through a recap, not the original report."
+    },
+    {
+      "id": "stripe_docs",
+      "group": "coding",
+      "who": "Stripe",
+      "label": "of documentation traffic comes from agents",
+      "value": 40,
+      "display": "~40%",
+      "unit": "%",
+      "period": "Jun 2026",
+      "src": "stripe_projects",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article",
+      "note": "Agent traffic to Stripe's docs grew more than tenfold during 2025."
+    },
+    {
+      "id": "neon",
+      "group": "coding",
+      "who": "Neon",
+      "label": "of new databases were provisioned by agents",
+      "value": 80,
+      "display": "80%+",
+      "unit": "%",
+      "period": "May 2025",
+      "src": "neon_databricks",
+      "cls": "reported",
+      "verified": "yes",
+      "via": "a16z article",
+      "note": "Correct, but 18 months older than the figures around it."
+    },
+    {
+      "id": "gh_commits",
+      "group": "coding",
+      "who": "GitHub",
+      "label": "commits in twelve months, against 12.9B a year earlier",
+      "value": 34.3,
+      "display": "34.3B",
+      "unit": "B",
+      "period": "12 months to Sep 2026",
+      "src": "github_octoverse",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "Merged pull requests rose from 538M to 1.3B over the same period."
+    },
+    {
+      "id": "chatgpt_wau",
+      "group": "platform",
+      "who": "ChatGPT",
+      "label": "weekly active users",
+      "value": 1.2,
+      "display": "1.2B",
+      "unit": "B",
+      "period": "Sep 2026",
+      "src": "openai_wau",
+      "cls": "reported",
+      "verified": "partial",
+      "via": "a16z article (no link)",
+      "note": "Consistent across press coverage of OpenAI's DevDay. OpenAI's own pages could not be opened to confirm the wording."
+    },
+    {
+      "id": "chatgpt_ads",
+      "group": "platform",
+      "who": "ChatGPT ads",
+      "label": "advertisers, in 89 countries",
+      "value": 100,
+      "display": "100k+",
+      "unit": "k",
+      "period": "late Oct 2026",
+      "src": "digiday_chatgpt",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "Annualised ad run rate reached about $1B by September 2026. Context for Businesses in ChatGPT, which the article cites."
+    },
+    {
+      "id": "instinct",
+      "group": "platform",
+      "who": "Instinct",
+      "label": "valuation of a consumer agent named in the article",
+      "value": 10,
+      "display": "$10B",
+      "unit": "$B",
+      "period": "Sep 28, 2026",
+      "src": "tc_instinct",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "$1B Series C about a month after a round at $2.5B. The company has disclosed no user metrics."
+    },
+    {
+      "id": "muse_launch",
+      "group": "platform",
+      "who": "Meta Muse",
+      "label": "of daily agent requests within three weeks of launch",
+      "value": 72,
+      "display": "~72%",
+      "unit": "%",
+      "period": "data to Sep 27, 2026",
+      "src": "ppc_muse",
+      "cls": "reported",
+      "verified": "partial",
+      "note": "A HUMAN Security figure read through trade coverage. Muse launched on Sep 8, 2026, in the US only, with purchases through Link by Stripe."
+    },
+    {
+      "id": "cf_bots",
+      "group": "context",
+      "who": "Cloudflare Radar",
+      "label": "of web traffic was bots and agents, not people",
+      "value": 57.4,
+      "display": "57.4%",
+      "unit": "%",
+      "period": "Jun 2026",
+      "src": "cloudflare_june",
+      "cls": "reported",
+      "verified": "partial",
+      "note": "The category is not clearly defined. Cloudflare's CEO said bots and called the data a bit messy, while press coverage described it as AI agents. The article's line that agents are most web traffic rests on figures like this one."
+    },
+    {
+      "id": "cf_ai",
+      "group": "context",
+      "who": "Cloudflare Radar",
+      "label": "of HTML requests came from AI crawlers",
+      "value": 4.2,
+      "display": "4.2%",
+      "unit": "%",
+      "period": "2025",
+      "src": "cloudflare_2025",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "A counterweight: most automated traffic is ordinary bots, and AI crawlers were a small slice in 2025."
+    },
+    {
+      "id": "imperva",
+      "group": "context",
+      "who": "Imperva",
+      "label": "of web traffic was automated",
+      "value": 53,
+      "prev": 51,
+      "display": "53%",
+      "unit": "%",
+      "period": "2025, up from 2024",
+      "src": "imperva_2026",
+      "cls": "reported",
+      "verified": "yes"
+    },
+    {
+      "id": "checkout",
+      "group": "context",
+      "who": "HUMAN Security",
+      "label": "of agentic requests reached checkout or payment pages",
+      "value": 1.9,
+      "display": "1.9%",
+      "unit": "%",
+      "period": "Oct 2026",
+      "src": "human_oct",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "85.2% went to product and search pages. Agents browse far more than they buy today. Measured on HUMAN's own customer network, which leans toward ecommerce, media and travel. It is not the whole web."
+    },
+    {
+      "id": "adobe_conv",
+      "group": "context",
+      "who": "Adobe Analytics",
+      "label": "higher conversion for AI-referred visits than other visits, US retail",
+      "value": 90,
+      "display": "+90%",
+      "unit": "%",
+      "period": "Sep 2026",
+      "src": "adobe_oct",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "It was 9% lower in August 2025. Revenue per visit was 83% higher in September 2026. Supports the article's unsourced line on better engagement."
+    },
+    {
+      "id": "adobe_growth",
+      "group": "context",
+      "who": "Adobe Analytics",
+      "label": "year-over-year growth in AI-referred traffic to US retail",
+      "value": 71,
+      "display": "+71%",
+      "unit": "%",
+      "period": "Sep 2026",
+      "src": "adobe_oct",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "Growth rates are falling as the base grows. Adobe reported +693% for the 2025 holiday season and +393% for Q1 2026."
+    },
+    {
+      "id": "bought_in_ai",
+      "group": "context",
+      "who": "Survey cited by Similarweb",
+      "label": "of US shoppers say they have completed a purchase inside an AI tool",
+      "value": 22,
+      "display": "22%",
+      "unit": "%",
+      "period": "Mar 2026",
+      "src": "similarweb_ai",
+      "cls": "reported",
+      "verified": "partial",
+      "note": "Self-reported, from a separate March 2026 study that Similarweb cites. No sample size is given."
+    },
+    {
+      "id": "mcp",
+      "group": "context",
+      "who": "MCP registry",
+      "label": "servers listed in the official registry",
+      "value": 52141,
+      "display": "52,141",
+      "unit": "",
+      "period": "Oct 28, 2026",
+      "src": "mcp_registry",
+      "cls": "estimate",
+      "verified": "yes",
+      "note": "A third-party crawl. The count includes 691 deprecated servers, and listing says nothing about quality."
+    },
+    {
+      "id": "google_code",
+      "group": "context",
+      "who": "Google",
+      "label": "of new code at Google is AI-generated",
+      "value": 75,
+      "prev": 25,
+      "display": "75%",
+      "unit": "%",
+      "period": "Apr 2026, up from Oct 2024",
+      "src": "google_code",
+      "cls": "reported",
+      "verified": "yes"
+    },
+    {
+      "id": "publishers",
+      "group": "context",
+      "who": "Chartbeat",
+      "label": "change in Google Search referrals to publishers in a year",
+      "value": 40.2,
+      "display": "−40%",
+      "unit": "",
+      "period": "Jul 2025 to Jul 2026",
+      "src": "chartbeat",
+      "cls": "reported",
+      "verified": "yes",
+      "note": "AI referrals grew about eightfold in two years yet remain about 0.01% of publisher traffic. Read through secondary coverage."
+    }
+  ],
+  "series": [
+    {
+      "id": "wau",
+      "title": "ChatGPT weekly active users",
+      "desc": "Millions, from OpenAI statements. The 1B target for end-2025 arrived about seven months late.",
+      "unit": "M",
+      "src": "chatgpt_hist",
+      "cls": "reported",
+      "points": [
+        {
+          "t": "Nov 23",
+          "v": 100
+        },
+        {
+          "t": "Aug 24",
+          "v": 200
+        },
+        {
+          "t": "Dec 24",
+          "v": 300
+        },
+        {
+          "t": "Feb 25",
+          "v": 400
+        },
+        {
+          "t": "Aug 25",
+          "v": 700
+        },
+        {
+          "t": "Oct 25",
+          "v": 800
+        },
+        {
+          "t": "Feb 26",
+          "v": 900
+        },
+        {
+          "t": "Sep 26",
+          "v": 1200
+        }
+      ]
+    },
+    {
+      "id": "journeys",
+      "title": "Shopper journeys that pass through AI first",
+      "desc": "Share of US desktop journeys visiting an AI platform before a transactional retail site.",
+      "unit": "%",
+      "src": "similarweb_journey",
+      "cls": "reported",
+      "points": [
+        {
+          "t": "Jul 24",
+          "v": 4.5
+        },
+        {
+          "t": "Jan 25",
+          "v": 6.1
+        },
+        {
+          "t": "Jul 25",
+          "v": 9.1
+        },
+        {
+          "t": "Jan 26",
+          "v": 9.9
+        },
+        {
+          "t": "Jun 26",
+          "v": 11.4
+        }
+      ]
+    },
+    {
+      "id": "operators",
+      "title": "Which agents are doing the browsing",
+      "desc": "Share of agentic requests by agent, October 2026, on HUMAN's network.",
+      "unit": "%",
+      "src": "human_oct",
+      "cls": "reported",
+      "hi": 0,
+      "points": [
+        {
+          "t": "Muse",
+          "v": 59,
+          "n": "Meta"
+        },
+        {
+          "t": "ChatGPT",
+          "v": 15.9,
+          "n": "ChatGPT Agent"
+        },
+        {
+          "t": "Codex",
+          "v": 8.8,
+          "n": "Codex browser"
+        },
+        {
+          "t": "Codex ext",
+          "v": 5.2,
+          "n": "Codex Chrome extension"
+        },
+        {
+          "t": "Comet",
+          "v": 3.6,
+          "n": "Perplexity"
+        },
+        {
+          "t": "Claude",
+          "v": 3.5,
+          "n": "Claude Chrome extension"
+        },
+        {
+          "t": "Other",
+          "v": 3.9,
+          "n": "Google, xAI and others"
+        }
+      ]
+    },
+    {
+      "id": "commits",
+      "title": "GitHub commits per year",
+      "desc": "Billions, twelve months to September 30. Agents turned steady growth into a step change.",
+      "unit": "B",
+      "src": "github_octoverse",
+      "cls": "reported",
+      "points": [
+        {
+          "t": "2024",
+          "v": 10
+        },
+        {
+          "t": "2025",
+          "v": 12.9
+        },
+        {
+          "t": "2026",
+          "v": 34.3
+        }
+      ]
+    },
+    {
+      "id": "imperva",
+      "title": "Automated share of web traffic",
+      "desc": "All bots, good and bad. People became the minority in 2024. Earlier years come from earlier editions of the same report.",
+      "unit": "%",
+      "src": "imperva_2026",
+      "cls": "reported",
+      "points": [
+        {
+          "t": "2022",
+          "v": 47.4
+        },
+        {
+          "t": "2023",
+          "v": 49.6
+        },
+        {
+          "t": "2024",
+          "v": 51
+        },
+        {
+          "t": "2025",
+          "v": 53
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "title": "AI-referred retail traffic: growth is slowing",
+      "desc": "Year-over-year growth in AI-referred visits to US retail sites. Still growing fast, from an ever larger base.",
+      "unit": "%",
+      "src": "adobe_oct",
+      "more": [
+        "adobe_holiday",
+        "adobe_q1",
+        "adobe_jul"
+      ],
+      "cls": "reported",
+      "hi": 3,
+      "points": [
+        {
+          "t": "Hol 25",
+          "v": 693,
+          "n": "Nov to Dec 2025"
+        },
+        {
+          "t": "Q1 26",
+          "v": 393
+        },
+        {
+          "t": "Jul 26",
+          "v": 62
+        },
+        {
+          "t": "Sep 26",
+          "v": 71
+        }
+      ]
+    }
+  ],
+  "access": [
+    {
+      "stage": "today",
+      "name": "Browser use",
+      "text": "The agent drives a browser, its own or the user's, and clicks through a site the way a person would. The article says most agent traffic works this way now.",
+      "autonomy": 30,
+      "status": "human-shaped"
+    },
+    {
+      "stage": "emerging",
+      "name": "Connectors, plug-ins and MCP",
+      "text": "Agents call a business's tools directly with no interface to navigate. a16z calls this an app store for agents. Enterprise admins can already enable plug-ins for a whole organisation.",
+      "autonomy": 55,
+      "status": "tool-shaped"
+    },
+    {
+      "stage": "emerging",
+      "name": "Lent identity and payment",
+      "text": "Users lend an agent their identity or tokens, as with Sign in with ChatGPT, so sign-up and payment stop needing a person at each step.",
+      "autonomy": 75,
+      "status": "delegated"
+    },
+    {
+      "stage": "a16z forecast",
+      "name": "Self-selected tools",
+      "text": "Agents choose, install and pay for the tools they need with no human in the loop. At that point the agent is the customer.",
+      "autonomy": 100,
+      "status": "autonomous"
+    }
+  ],
+  "winners": [
+    {
+      "name": "Agents and agentic models",
+      "text": "Standalone consumer agents, and every existing product once it starts acting for its user. ChatGPT's reach makes it the largest single opening.",
+      "examples": [
+        "Instinct",
+        "Muse",
+        "Wabi",
+        "ChatGPT"
+      ]
+    },
+    {
+      "name": "Products agents make possible",
+      "text": "Businesses that could not exist before, the way Amazon and Uber followed earlier platform shifts.",
+      "examples": [
+        "Self-running SMBs",
+        "AI-run marketplaces",
+        "Auto-optimisers"
+      ]
+    },
+    {
+      "name": "Incumbents that optimise for agents",
+      "text": "Generative engine optimisation stops at being found. Agents go on to evaluate and to buy, so the prize is larger than visibility.",
+      "examples": [
+        "GEO",
+        "Agent-ready catalogs",
+        "Agent experience"
+      ]
+    },
+    {
+      "name": "Agent infrastructure",
+      "text": "Payments, fraud, identity and communication already strain at low agent volume, which is where new suppliers get in.",
+      "examples": [
+        "Payments",
+        "Fraud",
+        "Identity",
+        "Messaging, calls, email"
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "name": "People research with AI but will not let it pay",
+      "text": "In a Riskified survey of US and UK shoppers, 55% were not comfortable with an agent completing a purchase. In an Expedia survey, 8% were comfortable letting AI handle a travel booking.",
+      "src": "forkast_trust",
+      "src2": "expedia_skift"
+    },
+    {
+      "name": "In-chat checkout already failed once",
+      "text": "Walmart saw purchases inside ChatGPT convert three times worse than clicking out to its own site, and OpenAI pulled Instant Checkout back in March 2026.",
+      "src": "walmart_ppc",
+      "src2": "stellagent"
+    },
+    {
+      "name": "Nobody owns the loss when an agent buys wrongly",
+      "text": "Card networks have no agent-specific dispute rule yet. One analyst expects the earliest in the April 2027 rules cycle.",
+      "src": "shopappy"
+    },
+    {
+      "name": "Protocol announcements outrun adoption",
+      "text": "A scan of more than 3 million sites found 26 public implementations of Google's commerce protocol by May 2026.",
+      "src": "ucp26"
+    },
+    {
+      "name": "Platforms can shut the door",
+      "text": "Amazon went to court over Perplexity's shopping agent. Sites blocked 17.5 to 21.3% of agentic requests in mid-2026.",
+      "src": "human_jul",
+      "src2": "emarketer_perplexity"
+    },
+    {
+      "name": "Four in ten agent projects may be scrapped",
+      "text": "Gartner expects more than 40% of agentic AI projects to be cancelled by the end of 2027.",
+      "src": "gartner_cancel"
+    }
+  ],
+  "model": [
+    {
+      "id": "us_agentic",
+      "headline": true,
+      "short": "US e-commerce driven through AI platforms",
+      "title": "US e-commerce sales driven through AI platforms",
+      "unit": "$B",
+      "friction": true,
+      "desc": "Sales that start on an AI platform. Most are still checked out on the retailer's own site.",
+      "hist": [
+        {
+          "y": 2025,
+          "v": 5.2,
+          "c": "estimate",
+          "src": "emarketer_ac"
+        },
+        {
+          "y": 2026,
+          "v": 19.74,
+          "c": "estimate",
+          "src": "emarketer_ac"
+        }
+      ],
+      "paths": {
+        "low": [
+          32,
+          55,
+          90,
+          134
+        ],
+        "base": [
+          42,
+          80,
+          130,
+          190
+        ],
+        "high": [
+          55,
+          125,
+          250,
+          450
+        ]
+      },
+      "anchors": [
+        {
+          "src": "emarketer_2026",
+          "year": 2029,
+          "v": 144,
+          "scope": "issued before a 2026 downward revision"
+        },
+        {
+          "src": "emarketer_ac",
+          "year": 2030,
+          "v": 134.1,
+          "scope": "revised figure, seen as a chart title only"
+        },
+        {
+          "src": "ms_ac",
+          "year": 2030,
+          "lo": 190,
+          "hi": 385,
+          "scope": "agentic e-commerce spend"
+        },
+        {
+          "src": "bain_ac",
+          "year": 2030,
+          "lo": 300,
+          "hi": 500,
+          "scope": "initiated, influenced or completed by agents"
+        },
+        {
+          "src": "mckinsey_ac",
+          "year": 2030,
+          "v": 1000,
+          "scope": "ceiling, all agent-orchestrated retail"
+        }
+      ],
+      "method": "Starts at EMARKETER's revised 2026 estimate of $19.74B. The conservative path lands on EMARKETER's own revised 2030 figure of about $134B, the base path on the low end of Morgan Stanley's 2030 range, and the accelerated path in the upper half of Bain's range. Publishers define the measure differently, so the dots are not like for like. The 2025 point is derived from EMARKETER's December 2025 projection, which put 2026 at about four times 2025."
+    },
+    {
+      "id": "bots",
+      "headline": true,
+      "short": "Automated share of web traffic",
+      "title": "Automated share of web traffic",
+      "unit": "%",
+      "desc": "All bots and agents as a share of requests. No published forecast reaches 2030, so this path is the dashboard's own.",
+      "hist": [
+        {
+          "y": 2025,
+          "v": 53,
+          "c": "reported",
+          "src": "imperva_2026"
+        },
+        {
+          "y": 2026,
+          "v": 57.4,
+          "c": "estimate",
+          "src": "cloudflare_june"
+        }
+      ],
+      "paths": {
+        "low": [
+          58,
+          58.8,
+          59.4,
+          60
+        ],
+        "base": [
+          59.5,
+          61.5,
+          63.5,
+          65
+        ],
+        "high": [
+          61,
+          65,
+          69,
+          72
+        ]
+      },
+      "anchors": [],
+      "method": "2025 is Imperva's full-year figure. 2026 is a single Cloudflare reading from June standing in for the year, on a different measurement basis, so it is classed as an estimate. The base path adds about two points a year, close to the 2022 to 2025 pace. The accelerated path assumes consumer agents add a further point or two each year."
+    },
+    {
+      "id": "agents",
+      "headline": true,
+      "short": "AI agents in active deployment",
+      "title": "AI agents in active deployment",
+      "unit": "M",
+      "desc": "Agents running in organisations worldwide, on IDC's definition.",
+      "hist": [
+        {
+          "y": 2025,
+          "v": 25,
+          "c": "estimate",
+          "src": "idc_agents"
+        }
+      ],
+      "paths": {
+        "low": [
+          110,
+          250,
+          550,
+          900
+        ],
+        "base": [
+          160,
+          420,
+          1000,
+          1800
+        ],
+        "high": [
+          220,
+          700,
+          1800,
+          4000
+        ]
+      },
+      "anchors": [
+        {
+          "src": "idc_agents",
+          "year": 2029,
+          "v": 1000,
+          "scope": "more than 1B, 40 times 2025"
+        }
+      ],
+      "method": "IDC expects more than 1B agents by 2029 and says that is 40 times 2025, which implies about 25M in 2025. The base path passes through IDC's 2029 figure. Gartner's count of more than 10B agents by 2030 includes agents made by individuals and governments and is listed below, not plotted."
+    },
+    {
+      "id": "market",
+      "headline": true,
+      "short": "Standalone AI agent software market",
+      "title": "Standalone AI agent software market",
+      "unit": "$B",
+      "desc": "Revenue of products sold as agents. Software with agent features built in is a far larger and separate number.",
+      "hist": [
+        {
+          "y": 2025,
+          "v": 8.3,
+          "c": "estimate",
+          "src": "tbrc_agents"
+        },
+        {
+          "y": 2026,
+          "v": 12.1,
+          "c": "estimate",
+          "src": "tbrc_agents"
+        }
+      ],
+      "paths": {
+        "low": [
+          16,
+          21.5,
+          28,
+          35
+        ],
+        "base": [
+          18,
+          26,
+          37,
+          52
+        ],
+        "high": [
+          20,
+          32,
+          50,
+          78
+        ]
+      },
+      "anchors": [
+        {
+          "src": "mm_agents",
+          "year": 2030,
+          "v": 52.62,
+          "scope": "46% CAGR"
+        },
+        {
+          "src": "gvr_agents",
+          "year": 2030,
+          "v": 50.31,
+          "scope": "46% CAGR"
+        },
+        {
+          "src": "tbrc_agents",
+          "year": 2030,
+          "v": 53.2
+        },
+        {
+          "src": "deloitte_tmt",
+          "year": 2030,
+          "lo": 35,
+          "hi": 45,
+          "scope": "standalone agentic AI"
+        }
+      ],
+      "method": "Two firms put 2025 at $7.8B to $8.3B and three put 2030 at $50B to $53B. Deloitte is lower at $35B to $45B. The base path follows the cluster of three, the conservative path lands on Deloitte's lower figure, and the accelerated path reaches $78B, the size Gartner gives for cross-functional agents in 2030 on a different definition."
+    },
+    {
+      "id": "prs",
+      "short": "Pull requests started by agents",
+      "title": "Share of GitHub pull requests started by agents",
+      "unit": "%",
+      "desc": "The article's leading indicator. No forecaster publishes a series, so this path is the dashboard's own.",
+      "hist": [
+        {
+          "y": 2026,
+          "v": 40,
+          "c": "reported",
+          "src": "github_octoverse"
+        }
+      ],
+      "paths": {
+        "low": [
+          46,
+          52,
+          57,
+          62
+        ],
+        "base": [
+          55,
+          66,
+          74,
+          80
+        ],
+        "high": [
+          62,
+          76,
+          85,
+          90
+        ]
+      },
+      "anchors": [],
+      "method": "The share went from 17% to 40% in six months. The paths assume that pace cannot hold and the curve flattens as it nears a ceiling: 62% by 2030 in the conservative case, 80% in the base case, 90% in the accelerated case."
+    },
+    {
+      "id": "aispend",
+      "short": "Worldwide AI spending",
+      "title": "Worldwide AI spending",
+      "unit": "$B",
+      "desc": "The compute, software and services bill behind the agent economy.",
+      "hist": [
+        {
+          "y": 2025,
+          "v": 1765,
+          "c": "estimate",
+          "src": "gartner_spend_may"
+        },
+        {
+          "y": 2026,
+          "v": 2670,
+          "c": "estimate",
+          "src": "gartner_2q26"
+        }
+      ],
+      "paths": {
+        "low": [
+          3300,
+          3800,
+          4300,
+          4750
+        ],
+        "base": [
+          3631,
+          4394,
+          5185,
+          5962
+        ],
+        "high": [
+          3900,
+          5000,
+          6100,
+          7200
+        ]
+      },
+      "anchors": [
+        {
+          "src": "gartner_spend_may",
+          "year": 2027,
+          "v": 3493,
+          "scope": "May 2026 edition"
+        },
+        {
+          "src": "gartner_2q26",
+          "year": 2030,
+          "v": 5950,
+          "scope": "July 2026 edition"
+        }
+      ],
+      "method": "The base path applies Gartner's stated growth rates (36%, 21%, 18%, 15%) to its 2026 estimate, which reproduces its $5.95T figure for 2030. The band is 20% either side by 2030. The 2025 and 2026 points come from different editions of the forecast, and Gartner raised its 2026 figure between May and July."
+    }
+  ],
+  "outlook": [
+    {
+      "metric": "Global agent-orchestrated commerce",
+      "year": "2030",
+      "value": "$3T to $5T",
+      "src": "mckinsey_ac"
+    },
+    {
+      "metric": "Agentic commerce transaction value, from $8B in 2026",
+      "year": "2030",
+      "value": "$1.5T",
+      "src": "juniper_ac"
+    },
+    {
+      "metric": "Global consumer transactions initiated by agents",
+      "year": "2030",
+      "value": "$1.7T",
+      "src": "edgardunn"
+    },
+    {
+      "metric": "Agentic share of US e-commerce, likely to optimistic",
+      "year": "2030",
+      "value": "10 to 20%",
+      "src": "ms_ac"
+    },
+    {
+      "metric": "Agentic share of US e-commerce",
+      "year": "2030",
+      "value": "15 to 25%",
+      "src": "bain_ac"
+    },
+    {
+      "metric": "Agentic share of European B2C e-commerce",
+      "year": "2030",
+      "value": "10 to 20%",
+      "src": "rolandberger"
+    },
+    {
+      "metric": "US and UK consumers who replace traditional shopping with conversational shopping",
+      "year": "2027",
+      "value": "1 in 20",
+      "src": "forrester_commerce"
+    },
+    {
+      "metric": "B2B purchase decisions influenced by AI agents",
+      "year": "2027",
+      "value": "75%",
+      "src": "forrester_b2b"
+    },
+    {
+      "metric": "B2B buying intermediated by AI agents",
+      "year": "2028",
+      "value": "90%, over $15T",
+      "src": "gartner_pred"
+    },
+    {
+      "metric": "Agentic AI projects cancelled",
+      "year": "end 2027",
+      "value": "over 40%",
+      "src": "gartner_cancel"
+    },
+    {
+      "metric": "Business processes running semi- or fully autonomously",
+      "year": "2028",
+      "value": "25%",
+      "src": "capgemini"
+    },
+    {
+      "metric": "Enterprise software engineers using AI code assistants",
+      "year": "2028",
+      "value": "90%",
+      "src": "gartner_dev"
+    },
+    {
+      "metric": "AI search ad spending, 13.6% of search ads",
+      "year": "2029",
+      "value": "about $26B",
+      "src": "emarketer_search"
+    },
+    {
+      "metric": "Agent actions per day worldwide",
+      "year": "2029",
+      "value": "over 217B",
+      "src": "idc_agents"
+    },
+    {
+      "metric": "Spending on software with agentic AI embedded",
+      "year": "2030",
+      "value": "about $1.0T",
+      "src": "gartner_2q26"
+    },
+    {
+      "metric": "Autonomous agents created by people, firms and governments",
+      "year": "2030",
+      "value": "over 10B",
+      "src": "gartner_2027"
+    },
+    {
+      "metric": "Monetary transactions that are programmable",
+      "year": "2030",
+      "value": "20%",
+      "src": "gartner_pred"
+    },
+    {
+      "metric": "US AI ad spend, with chatbot-native ads just over $5B",
+      "year": "2030",
+      "value": "$68B",
+      "src": "emarketer_ads"
+    },
+    {
+      "metric": "Annual US economic value from agents and robots, midpoint adoption",
+      "year": "2030",
+      "value": "$2.9T",
+      "src": "mgi"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "software",
+      "name": "Software and developer tools",
+      "stage": "Mainstream",
+      "evidence": "strong",
+      "impact": {
+        "2026": 4,
+        "2027": 5,
+        "2028": 5,
+        "2029": 5,
+        "2030": 5
+      },
+      "mechanism": "Coding agents choose and provision infrastructure, so the agent is the buyer in practice. Defaults, documentation quality and MCP support decide which vendor gets picked.",
+      "datapoints": [
+        {
+          "metric": "Pull requests started by agents",
+          "value": "40%+",
+          "date": "Sep 2026",
+          "src": "github_octoverse"
+        },
+        {
+          "metric": "New Supabase databases launched by AI tools",
+          "value": "60%+",
+          "date": "Jun 2026",
+          "src": "supabase_f"
+        },
+        {
+          "metric": "Stripe CLI requests from agents",
+          "value": "70%",
+          "date": "Jun 2026",
+          "src": "stripe_projects"
+        }
+      ],
+      "impactYear": "Already material",
+      "why": "2027 is when agent defaults start to redistribute vendor share.",
+      "winners": "Backends agents reach for by default: Supabase, Neon, Vercel, Stripe, GitHub, Cloudflare. Agent vendors themselves.",
+      "losers": "Tools that can only be set up through a GUI, seat-priced developer software, vendors absent from agent defaults.",
+      "risks": "Dependence on one or two coding agents, and revenue from throwaway projects."
+    },
+    {
+      "id": "media",
+      "name": "Media and publishing",
+      "stage": "Mainstream",
+      "evidence": "strong",
+      "impact": {
+        "2026": 4,
+        "2027": 4,
+        "2028": 4,
+        "2029": 5,
+        "2030": 5
+      },
+      "mechanism": "Agents and crawlers read content without sending a visit. Search referrals fall and revenue has to move to licensing, pay-per-crawl and direct audiences.",
+      "datapoints": [
+        {
+          "metric": "Google Search referrals to publishers",
+          "value": "−40.2%",
+          "date": "year to Jul 2026",
+          "src": "chartbeat"
+        },
+        {
+          "metric": "Media share of agentic traffic, largest sector that month",
+          "value": "43.5%",
+          "date": "Jul 2026",
+          "src": "human_jul"
+        },
+        {
+          "metric": "Weekly traffic lost by news publishers that blocked AI crawlers (Rutgers and Wharton study)",
+          "value": "about 7%",
+          "date": "2026",
+          "src": "llms_ppc"
+        }
+      ],
+      "impactYear": "2026 to 2027",
+      "why": "The damage is current. Offsetting revenue from tolls and licences is unlikely before 2028.",
+      "winners": "Toll collectors at the network edge, publishers with loyal direct readers, owners of unique data.",
+      "losers": "Small publishers that depend on search.",
+      "risks": "Pay-per-crawl revenue is undisclosed, and blocking crawlers has cost traffic."
+    },
+    {
+      "id": "retail",
+      "name": "Retail and e-commerce",
+      "stage": "Scaling",
+      "evidence": "strong",
+      "impact": {
+        "2026": 3,
+        "2027": 3,
+        "2028": 4,
+        "2029": 5,
+        "2030": 5
+      },
+      "mechanism": "Assistants become the discovery and comparison layer and send pre-qualified traffic. Checkout still mostly completes on the merchant's own site, and the contest is over catalog access and who owns the customer.",
+      "datapoints": [
+        {
+          "metric": "AI-referred visits convert better than other visits",
+          "value": "+90%",
+          "date": "Sep 2026",
+          "src": "adobe_oct"
+        },
+        {
+          "metric": "Shopify orders from AI search, year over year",
+          "value": "3.3x",
+          "date": "Q3 2026",
+          "src": "shopify_q3"
+        },
+        {
+          "metric": "Agentic requests that reach checkout or payment",
+          "value": "1.9%",
+          "date": "Oct 2026",
+          "src": "human_oct"
+        },
+        {
+          "metric": "Walmart checkout inside ChatGPT vs click-out",
+          "value": "3x lower",
+          "date": "Mar 2026",
+          "src": "walmart_ppc"
+        }
+      ],
+      "impactYear": "2027 to 2028",
+      "why": "Referral is material now. Delegated checkout waits on card-network dispute rules and wider protocol rollout.",
+      "winners": "Catalog platforms, merchants with clean structured data, large retailers running their own agent inside assistants, card networks.",
+      "losers": "Marketplaces that live on sponsored listings, thin affiliates, merchants whose product pages agents cannot read.",
+      "risks": "Checkout inside chat underperforming, losing the customer relationship, and platforms blocking agents."
+    },
+    {
+      "id": "ads",
+      "name": "Advertising, marketing and search",
+      "stage": "Scaling",
+      "evidence": "strong",
+      "impact": {
+        "2026": 3,
+        "2027": 4,
+        "2028": 4,
+        "2029": 5,
+        "2030": 5
+      },
+      "mechanism": "Answers replace lists of links. Budgets move to placements beside AI answers and to optimisation for models. When an agent picks the product, persuasion targets the model and the product feed.",
+      "datapoints": [
+        {
+          "metric": "US AI ad spend, 2026 to 2030",
+          "value": "$32B to $68B",
+          "date": "Jun 2026",
+          "src": "emarketer_ads"
+        },
+        {
+          "metric": "ChatGPT advertisers",
+          "value": "100k+",
+          "date": "Oct 2026",
+          "src": "digiday_chatgpt"
+        },
+        {
+          "metric": "Profound Series D, GEO platform",
+          "value": "$180M",
+          "date": "Sep 2026",
+          "src": "profound_d"
+        }
+      ],
+      "impactYear": "2027",
+      "why": "AI answers reach full distribution in search and chatbot ad inventory becomes self-serve.",
+      "winners": "Google, GEO platforms, brands that third parties cite often.",
+      "losers": "Classic SEO and affiliate arbitrage, and retail media if agents skip sponsored listings.",
+      "risks": "Opaque measurement, and chatbot ad revenue running well below OpenAI's targets."
+    },
+    {
+      "id": "finance",
+      "name": "Financial services and payments",
+      "stage": "Emerging",
+      "evidence": "moderate",
+      "impact": {
+        "2026": 1,
+        "2027": 2,
+        "2028": 3,
+        "2029": 4,
+        "2030": 4
+      },
+      "mechanism": "Card networks add agent tokens, mandates and registries. Stablecoin rails target machine micropayments. In banking, agents that move deposits and shop for rates attack profits built on customer inertia.",
+      "datapoints": [
+        {
+          "metric": "Global bank profits at risk, most likely scenario",
+          "value": "$170B",
+          "date": "Oct 2025",
+          "src": "mckinsey_bank"
+        },
+        {
+          "metric": "Real commercial volume on x402",
+          "value": "about $28k a day",
+          "date": "Mar 2026",
+          "src": "forkast_x402"
+        },
+        {
+          "metric": "US consumers who trust generative AI with payments (Visa report)",
+          "value": "23%",
+          "date": "2026",
+          "src": "forkast_europe"
+        }
+      ],
+      "impactYear": "2028",
+      "why": "Rails are live but volumes are tiny or undisclosed. Deposit and margin effects follow in 2028 to 2029.",
+      "winners": "Card networks, Stripe and Adyen, tokenisation providers, stablecoin infrastructure, fraud vendors.",
+      "losers": "Banks that rely on low-rate deposits and issuers slow to support agent tokens.",
+      "risks": "Liability is unallocated and crypto rails carry a lot of artificial volume."
+    },
+    {
+      "id": "travel",
+      "name": "Travel and hospitality",
+      "stage": "Scaling for planning",
+      "evidence": "moderate",
+      "impact": {
+        "2026": 2,
+        "2027": 2,
+        "2028": 3,
+        "2029": 4,
+        "2030": 4
+      },
+      "mechanism": "AI is a major planning surface already. Booking is being wired in through apps and hotel partners, but travellers hesitate to hand over the transaction.",
+      "datapoints": [
+        {
+          "metric": "US travellers using generative AI for trip research",
+          "value": "33%",
+          "date": "2026",
+          "src": "phocuswright"
+        },
+        {
+          "metric": "Comfortable letting AI handle the booking",
+          "value": "8%",
+          "date": "Apr 2026",
+          "src": "expedia_skift"
+        },
+        {
+          "metric": "Travel share of agentic traffic",
+          "value": "19.3%",
+          "date": "Oct 2026",
+          "src": "human_oct"
+        }
+      ],
+      "impactYear": "2028",
+      "why": "Surveys disagree sharply on willingness to book through AI (44% in one, 8% in another), so delegation is unsettled.",
+      "winners": "Online travel agencies and chains with inventory APIs inside assistants.",
+      "losers": "Metasearch and content-led travel sites, properties without machine-readable rates.",
+      "risks": "High cost of an error on an expensive booking, and loyalty lock-in."
+    },
+    {
+      "id": "pro",
+      "name": "Professional services",
+      "stage": "Scaling for tools",
+      "evidence": "thin",
+      "impact": {
+        "2026": 1,
+        "2027": 2,
+        "2028": 3,
+        "2029": 3,
+        "2030": 4
+      },
+      "mechanism": "Vertical agents do associate-level work, which moves pricing pressure from hours to outcomes.",
+      "datapoints": [
+        {
+          "metric": "Harvey funding round (secondary source)",
+          "value": "$550M at $15.5B",
+          "date": "Sep 2026",
+          "src": "harvey"
+        },
+        {
+          "metric": "Gartner: cut in cost-to-value gap of process-centric contracts",
+          "value": "50%+ by 2027",
+          "date": "Nov 2025",
+          "src": "gartner_b2b"
+        }
+      ],
+      "impactYear": "2028",
+      "why": "Tools are scaling. Agents acting as the buyer of services is still early.",
+      "winners": "Vertical AI vendors and firms that reprice to outcomes.",
+      "losers": "Firms whose model is billing junior hours.",
+      "risks": "Liability for agent output. The figures here rest on single sources."
+    },
+    {
+      "id": "logistics",
+      "name": "Logistics and supply chain",
+      "stage": "Scaling in large brokers",
+      "evidence": "thin",
+      "impact": {
+        "2026": 1,
+        "2027": 2,
+        "2028": 3,
+        "2029": 3,
+        "2030": 4
+      },
+      "mechanism": "Agents quote, book, schedule and track freight. Shipper and carrier agents begin to transact with each other.",
+      "datapoints": [
+        {
+          "metric": "C.H. Robinson: AI-recommended loads booked faster (company figure, best case)",
+          "value": "4x",
+          "date": "Mar 2026",
+          "src": "chrobinson"
+        },
+        {
+          "metric": "C.H. Robinson: more on-time pickups (best case)",
+          "value": "up to 35%",
+          "date": "Mar 2026",
+          "src": "chrobinson"
+        }
+      ],
+      "impactYear": "2028",
+      "why": "In production at the largest brokers, early across the rest of the market.",
+      "winners": "Data-rich brokers and third-party logistics firms.",
+      "losers": "Manual brokerages.",
+      "risks": "Only vendor-reported best cases exist, with no independent data."
+    },
+    {
+      "id": "telecom",
+      "name": "Telecom and connectivity",
+      "stage": "Emerging",
+      "evidence": "moderate",
+      "impact": {
+        "2026": 1,
+        "2027": 2,
+        "2028": 2,
+        "2029": 3,
+        "2030": 4
+      },
+      "mechanism": "Agent traffic changes the volume and shape of network load and creates demand for edge inference, bot classification and identity at the network layer.",
+      "datapoints": [
+        {
+          "metric": "Extra traffic per task when an agent executes it",
+          "value": "up to 450%",
+          "date": "May 2026",
+          "src": "cisco_comsoc"
+        },
+        {
+          "metric": "Growth in daily AI-agent requests on Cloudflare",
+          "value": "+1,700%",
+          "date": "Jun 2025 to May 2026",
+          "src": "cloudflare_q3"
+        },
+        {
+          "metric": "Cloudflare revenue growth",
+          "value": "+39%",
+          "date": "Q3 2026",
+          "src": "cloudflare_q3"
+        }
+      ],
+      "impactYear": "2027 at the edge, 2029 to 2030 for access networks",
+      "why": "Edge and CDN platforms see it first. AI traffic is mostly text and small in bytes today.",
+      "winners": "Edge and CDN platforms, network equipment vendors.",
+      "losers": "Operators that carry the traffic without charging for it.",
+      "risks": "The vendor forecasts are long-dated."
+    },
+    {
+      "id": "smb",
+      "name": "Small-business services",
+      "stage": "Emerging",
+      "evidence": "moderate",
+      "impact": {
+        "2026": 1,
+        "2027": 2,
+        "2028": 2,
+        "2029": 3,
+        "2030": 4
+      },
+      "mechanism": "Agents run the front and back office, the article's self-running small business. Use today is mostly individual productivity.",
+      "datapoints": [
+        {
+          "metric": "Small-business workers using AI at work",
+          "value": "about half",
+          "date": "Jun 2026",
+          "src": "uschamber"
+        },
+        {
+          "metric": "AI users automating workflows with little human involvement",
+          "value": "6%",
+          "date": "Jun 2026",
+          "src": "uschamber"
+        },
+        {
+          "metric": "AI-attributed Shopify purchases outside the top 100 categories",
+          "value": "about 74%",
+          "date": "Q3 2026",
+          "src": "shopify_q3"
+        }
+      ],
+      "impactYear": "2028 to 2029",
+      "why": "Adoption is wide but shallow. The long tail of niche merchants is already being found by agents.",
+      "winners": "Platforms that bundle agents for small firms, niche merchants agents can discover.",
+      "losers": "Small firms agents cannot see, local lead-generation intermediaries.",
+      "risks": "Privacy and security worries, a skills gap and unproven returns."
+    },
+    {
+      "id": "b2b",
+      "name": "B2B procurement and wholesale",
+      "stage": "Emerging",
+      "evidence": "thin",
+      "impact": {
+        "2026": 1,
+        "2027": 1,
+        "2028": 2,
+        "2029": 3,
+        "2030": 4
+      },
+      "mechanism": "Buyer-side agents source, compare and reorder. Sellers need machine-readable catalogs, prices and terms. Coding agents buying developer infrastructure is the one live example.",
+      "datapoints": [
+        {
+          "metric": "Gartner: B2B spend intermediated by agents by 2028",
+          "value": "over $15T",
+          "date": "Nov 2025",
+          "src": "gartner_b2b"
+        },
+        {
+          "metric": "Forrester: B2B decisions influenced by agents in 2027",
+          "value": "75%",
+          "date": "Oct 2026",
+          "src": "forrester_b2b"
+        },
+        {
+          "metric": "Natural Series A, B2B agent payments",
+          "value": "$30M",
+          "date": "Jul 2026",
+          "src": "natural"
+        }
+      ],
+      "impactYear": "2029",
+      "why": "The large numbers are forecasts. No measured agent-executed B2B volume exists yet.",
+      "winners": "Distributors with API-first catalogs, procurement suites, B2B payment and credit rails.",
+      "losers": "Distributors that sell on relationships alone and vendors with opaque pricing.",
+      "risks": "ERP integration and whether an agent has authority to sign a contract."
+    },
+    {
+      "id": "health",
+      "name": "Healthcare",
+      "stage": "Emerging",
+      "evidence": "thin",
+      "impact": {
+        "2026": 1,
+        "2027": 1,
+        "2028": 2,
+        "2029": 3,
+        "2030": 3
+      },
+      "mechanism": "Agents take on patient access, scheduling and back-office work. Consumer agents begin to touch provider sites. Regulated data slows autonomy.",
+      "datapoints": [
+        {
+          "metric": "Assort Health Series C",
+          "value": "$120M at $1.2B",
+          "date": "Jun 2026",
+          "src": "assort"
+        },
+        {
+          "metric": "Agentic traffic to healthcare sites, month over month",
+          "value": "+11.6%",
+          "date": "Jul 2026",
+          "src": "human_jul"
+        }
+      ],
+      "impactYear": "2029",
+      "why": "Voice and scheduling agents are funded and growing, but delegation of regulated tasks is slow.",
+      "winners": "Voice and scheduling agent vendors, providers with open scheduling APIs.",
+      "losers": "Outsourced call centres.",
+      "risks": "Liability, privacy law and high-risk classification in the EU."
+    }
+  ],
+  "techLayers": [
+    [
+      "transact",
+      "Transact"
+    ],
+    [
+      "trust",
+      "Trust"
+    ],
+    [
+      "connect",
+      "Connect"
+    ],
+    [
+      "experience",
+      "Experience"
+    ],
+    [
+      "build",
+      "Build"
+    ]
+  ],
+  "tech": [
+    {
+      "id": "backend",
+      "layer": "build",
+      "name": "Agent-native backend",
+      "maturity": "growth",
+      "mainstream": 2026,
+      "evidence": "strong",
+      "why": "Databases, deployment and sandboxes that an agent can provision in one call are where B2A revenue is already visible.",
+      "problem": "The economics and security of short-lived resources that agents create, and dependence on a few coding agents.",
+      "standards": "MCP serves as the provisioning interface.",
+      "companies": [
+        "Supabase",
+        "Neon",
+        "Vercel",
+        "Cloudflare Workers",
+        "Daytona",
+        "E2B",
+        "Modal"
+      ],
+      "funding": [
+        {
+          "what": "Supabase Series F",
+          "value": "$500M",
+          "date": "Jun 2026",
+          "src": "supabase_f"
+        },
+        {
+          "what": "Daytona Series B, $1B valuation",
+          "value": "$60M",
+          "date": "Oct 2026",
+          "src": "daytona"
+        }
+      ]
+    },
+    {
+      "id": "fraud",
+      "layer": "trust",
+      "name": "Agent fraud and bot management",
+      "maturity": "growth",
+      "mainstream": 2027,
+      "evidence": "strong",
+      "why": "Every site now has to tell a customer's agent from an attacker's, and blocking both loses sales.",
+      "problem": "Good and bad agents automate the same way. Up to 34% of the data fraud models rely on was missing in one in-chat checkout.",
+      "standards": "None of its own. Depends on Web Bot Auth and network agent tokens.",
+      "companies": [
+        "HUMAN Security",
+        "DataDome",
+        "Kasada",
+        "Cloudflare",
+        "Riskified",
+        "Forter"
+      ],
+      "funding": [
+        {
+          "what": "Agentic traffic growth in 2025",
+          "value": "+7,851%",
+          "date": "2025",
+          "src": "human_2025"
+        },
+        {
+          "what": "Kasada round",
+          "value": "$20M",
+          "date": "Feb 2026",
+          "src": "kasada"
+        },
+        {
+          "what": "Fraud signals missing in in-chat checkout",
+          "value": "up to 34%",
+          "date": "2026",
+          "src": "riskified"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "layer": "trust",
+      "name": "Agent observability and governance",
+      "maturity": "growth",
+      "mainstream": 2027,
+      "evidence": "moderate",
+      "why": "Companies will not let agents spend or act for them without a record of what they did and why.",
+      "problem": "Evaluating multi-step agents in production and proving compliance.",
+      "standards": "MCP's 2026 roadmap prioritises audit trails, single sign-on and gateways.",
+      "companies": [
+        "Braintrust",
+        "LangChain",
+        "Arize",
+        "Datadog"
+      ],
+      "funding": [
+        {
+          "what": "Braintrust Series B",
+          "value": "$80M",
+          "date": "Feb 2026",
+          "src": "braintrust"
+        }
+      ]
+    },
+    {
+      "id": "feeds",
+      "layer": "experience",
+      "name": "Agent-ready catalogs and storefronts",
+      "maturity": "early",
+      "mainstream": 2027,
+      "evidence": "moderate",
+      "why": "An agent can only buy what it can read. Structured product data is the new shelf space.",
+      "problem": "Merchant data quality and slow merchant uptake of the new tools.",
+      "standards": "The ACP and UCP specifications for feeds and checkout.",
+      "companies": [
+        "Shopify",
+        "Google",
+        "Walmart",
+        "Stripe",
+        "Parallel Web Systems"
+      ],
+      "funding": [
+        {
+          "what": "Parallel Web Systems Series B",
+          "value": "$100M",
+          "date": "Apr 2026",
+          "src": "parallel"
+        },
+        {
+          "what": "Shopify catalog-powered AI search converts vs general AI search",
+          "value": "2x",
+          "date": "Q1 2026",
+          "src": "shopify_q1"
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "layer": "experience",
+      "name": "GEO and agent experience",
+      "maturity": "growth",
+      "mainstream": 2027,
+      "evidence": "strong",
+      "why": "Being the product a model recommends, then being the one an agent can evaluate and buy, replaces ranking on a results page.",
+      "problem": "Proving what changes a model's answer and whether it converts.",
+      "standards": "None. llms.txt is on 36,120 sites but 97% of those files are never requested.",
+      "companies": [
+        "Profound",
+        "AirOps",
+        "Peec",
+        "Adobe",
+        "Semrush"
+      ],
+      "funding": [
+        {
+          "what": "Profound Series D, $1.8B valuation",
+          "value": "$180M",
+          "date": "Sep 2026",
+          "src": "profound_d"
+        },
+        {
+          "what": "llms.txt files that get no AI requests",
+          "value": "97%",
+          "date": "2026",
+          "src": "llms_ppc"
+        }
+      ]
+    },
+    {
+      "id": "comms",
+      "layer": "connect",
+      "name": "Agent communications",
+      "maturity": "growth",
+      "mainstream": 2027,
+      "evidence": "strong",
+      "why": "Agents need to call, text and email businesses and each other. Voice is the first channel to scale.",
+      "problem": "Authentication, spam and consent when agents contact agents.",
+      "standards": "None specific to agents.",
+      "companies": [
+        "ElevenLabs",
+        "Deepgram",
+        "Sierra",
+        "Twilio",
+        "AgentMail"
+      ],
+      "funding": [
+        {
+          "what": "Sierra round, $15B valuation",
+          "value": "$950M",
+          "date": "May 2026",
+          "src": "sierra"
+        },
+        {
+          "what": "ElevenLabs Series D",
+          "value": "$500M",
+          "date": "Feb 2026",
+          "src": "elevenlabs"
+        },
+        {
+          "what": "AgentMail seed",
+          "value": "$6M",
+          "date": "Mar 2026",
+          "src": "agentmail"
+        }
+      ]
+    },
+    {
+      "id": "edge",
+      "layer": "connect",
+      "name": "Network and edge for agent traffic",
+      "maturity": "growth",
+      "mainstream": 2027,
+      "evidence": "moderate",
+      "why": "The edge is where agent traffic is identified, shaped and, increasingly, charged for.",
+      "problem": "Charging for agent traffic. Pay-per-crawl revenue is still undisclosed.",
+      "standards": "Web Bot Auth and x402.",
+      "companies": [
+        "Cloudflare",
+        "Akamai",
+        "Fastly",
+        "Cisco",
+        "Nokia",
+        "Ericsson"
+      ],
+      "funding": [
+        {
+          "what": "Cloudflare revenue growth",
+          "value": "+39%",
+          "date": "Q3 2026",
+          "src": "cloudflare_q3"
+        },
+        {
+          "what": "Extra traffic per agent-run task",
+          "value": "up to 450%",
+          "date": "May 2026",
+          "src": "cisco_comsoc"
+        }
+      ]
+    },
+    {
+      "id": "payments",
+      "layer": "transact",
+      "name": "Agent payments and wallets",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "moderate",
+      "why": "An agent cannot be a customer until it can pay. Card networks, Stripe and stablecoin rails are all building for it.",
+      "problem": "Who pays when an agent buys the wrong thing. There is no network dispute rule, and volumes are tiny or undisclosed.",
+      "standards": "Visa and OpenAI aligned their protocols in June 2026. The x402 Foundation launched under the Linux Foundation in July 2026.",
+      "companies": [
+        "Visa",
+        "Mastercard",
+        "Stripe",
+        "Coinbase",
+        "American Express",
+        "Natural",
+        "Catena Labs"
+      ],
+      "funding": [
+        {
+          "what": "Tempo mainnet and Machine Payments Protocol live",
+          "value": "$5B valuation",
+          "date": "Mar 2026",
+          "src": "tempo_fortune"
+        },
+        {
+          "what": "Catena Labs Series A",
+          "value": "$30M",
+          "date": "May 2026",
+          "src": "catena"
+        },
+        {
+          "what": "x402 transactions on Base, 87% under 10 cents",
+          "value": "138M+",
+          "date": "Q3 2026",
+          "src": "chainalysis_x402"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "layer": "trust",
+      "name": "Agent identity and know-your-agent",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "moderate",
+      "why": "A business needs to know which agent is at the door, who it acts for and what it is allowed to do.",
+      "problem": "Binding an agent to a person and a scoped mandate in a way every vendor accepts.",
+      "standards": "Web Bot Auth is an IETF working-group draft on the standards track, dated October 2026. It is not yet an RFC.",
+      "companies": [
+        "Cloudflare",
+        "Google",
+        "Visa",
+        "Keycard",
+        "Descope",
+        "Okta"
+      ],
+      "funding": [
+        {
+          "what": "Descope seed extension",
+          "value": "$35M",
+          "date": "Oct 2025",
+          "src": "descope"
+        },
+        {
+          "what": "Web Bot Auth working-group draft",
+          "value": "draft 01",
+          "date": "Oct 2026",
+          "src": "ietf_wba"
+        }
+      ]
+    },
+    {
+      "id": "protocols",
+      "layer": "connect",
+      "name": "Commerce and agent protocols",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "strong",
+      "why": "MCP is already the default way agents reach tools. The commerce protocols that let them buy are a year or two behind.",
+      "problem": "Rival commerce protocols (ACP, UCP, card-network schemes) and MCP security, with more than 30 CVEs in early 2026.",
+      "standards": "MCP and A2A sit under the Linux Foundation's Agentic AI Foundation. UCP launched in January 2026.",
+      "companies": [
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Microsoft",
+        "Stripe",
+        "Shopify"
+      ],
+      "funding": [
+        {
+          "what": "Servers in the official MCP registry",
+          "value": "52,141",
+          "date": "Oct 2026",
+          "src": "mcp_registry"
+        },
+        {
+          "what": "Public UCP implementations found in 3M+ sites",
+          "value": "26",
+          "date": "May 2026",
+          "src": "ucp26"
+        }
+      ]
+    },
+    {
+      "id": "marketplaces",
+      "layer": "connect",
+      "name": "Agent marketplaces and app stores",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "thin",
+      "why": "The article's app store for agents: where an agent finds a tool decides who gets the business.",
+      "problem": "The assistant's owner controls distribution, and under 5% of public MCP servers are monetised.",
+      "standards": "The MCP Apps extension.",
+      "companies": [
+        "OpenAI",
+        "Google",
+        "AWS",
+        "Visa"
+      ],
+      "funding": [
+        {
+          "what": "Public MCP servers that are monetised",
+          "value": "under 5%",
+          "date": "H1 2026",
+          "src": "serpapi_mcp"
+        }
+      ]
+    },
+    {
+      "id": "browsers",
+      "layer": "experience",
+      "name": "Agentic browsers and computer use",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "moderate",
+      "why": "Browser use is how most agent traffic arrives today, and it works on any site without integration.",
+      "problem": "Prompt injection, and the legal right of an agent to access a site at all.",
+      "standards": "None. Relies on Web Bot Auth for identification.",
+      "companies": [
+        "Meta",
+        "Perplexity",
+        "Anthropic",
+        "Google",
+        "OpenAI",
+        "Browserbase"
+      ],
+      "funding": [
+        {
+          "what": "Muse share of observed agentic requests",
+          "value": "59%",
+          "date": "Oct 2026",
+          "src": "human_oct"
+        },
+        {
+          "what": "OpenAI closed its Atlas browser",
+          "value": "shut down",
+          "date": "Aug 2026",
+          "src": "atlas_shut"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "layer": "experience",
+      "name": "Agent memory and personal context",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "thin",
+      "why": "An agent that knows a user's preferences and history buys better, and whoever holds that context holds the customer.",
+      "problem": "Moving a user's context between assistants, and privacy.",
+      "standards": "None.",
+      "companies": [
+        "Mem0",
+        "Letta",
+        "Zep",
+        "Cognee"
+      ],
+      "funding": [
+        {
+          "what": "Mem0 seed and Series A",
+          "value": "$24M",
+          "date": "Oct 2025",
+          "src": "mem0"
+        }
+      ]
+    },
+    {
+      "id": "ondevice",
+      "layer": "experience",
+      "name": "On-device and private agents",
+      "maturity": "early",
+      "mainstream": 2028,
+      "evidence": "moderate",
+      "why": "Phone makers can put an agent in front of billions of people with the personal data already on the device.",
+      "problem": "A capability gap against cloud models, and regulatory access rules. Apple withheld its assistant from the EU at launch.",
+      "standards": "None.",
+      "companies": [
+        "Apple",
+        "Google",
+        "Qualcomm",
+        "Samsung"
+      ],
+      "funding": [
+        {
+          "what": "Apple Siri AI announced, EU excluded at launch",
+          "value": "announced",
+          "date": "Jun 2026",
+          "src": "apple_siri"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "layer": "transact",
+      "name": "Machine-readable pricing and negotiation",
+      "maturity": "research",
+      "mainstream": 2030,
+      "evidence": "thin",
+      "why": "When both buyer and seller are agents, price lists, discounts and terms have to be published for machines and negotiated by them.",
+      "problem": "No shared format for terms, discounts or an agent's authority to commit. No dedicated funding found.",
+      "standards": "x402, which revives the HTTP 402 status code, is the only live standard for signalling a price.",
+      "companies": [
+        "Google",
+        "Cloudflare",
+        "Coinbase"
+      ],
+      "funding": [
+        {
+          "what": "Real commercial volume on x402",
+          "value": "about $28k a day",
+          "date": "Mar 2026",
+          "src": "forkast_x402"
+        }
+      ]
+    }
+  ],
+  "method": {
+    "note": "This is an analytical product, not investment advice. Reported figures come from the companies and measurement firms named. Everything after 2026 is a forecast, and the dashed lines are this dashboard's own model, built to be argued with.",
+    "pipelineIntro": "Each monthly edition is produced by a team of AI agents with separate roles, directed and signed off by the project's human designer.",
+    "pipeline": [
+      {
+        "name": "Article analyst",
+        "text": "Reads the source article twice and lists every number, claim, named company and linked source."
+      },
+      {
+        "name": "Actuals researcher",
+        "text": "Opens each primary source, records the exact figure and period, and flags any mismatch with the article. Adds independent measurements."
+      },
+      {
+        "name": "Forecast researcher",
+        "text": "Collects published forecasts for 2027 to 2030 and records only the years each publisher states. Nothing is interpolated at this step."
+      },
+      {
+        "name": "Sector and technology researcher",
+        "text": "Gathers evidence by industry and by technology area: adoption data, funding, standards and open problems."
+      },
+      {
+        "name": "Modeller",
+        "text": "Builds the dataset and the three scenario paths, anchored on the most credible published forecasts."
+      },
+      {
+        "name": "Data reviewer",
+        "text": "A separate agent that did not build the dataset re-checks figures against sources and tests the model's arithmetic."
+      },
+      {
+        "name": "Interface reviewer",
+        "text": "A separate agent tests the dashboard at phone and desktop widths, in light and dark, with keyboard only."
+      },
+      {
+        "name": "Designer sign-off",
+        "text": "The human designer reviews both reports, decides open questions and publishes."
+      }
+    ],
+    "classes": [
+      {
+        "id": "reported",
+        "text": "Stated by the company itself or measured by a named firm on its own data. Checked against the original document where it could be opened."
+      },
+      {
+        "id": "estimate",
+        "text": "A third-party estimate of a current value, or a figure derived from one. The derivation is given in the note."
+      },
+      {
+        "id": "forecast",
+        "text": "A prediction published by a research firm or bank. Shown as stated, with the publisher's own scope."
+      },
+      {
+        "id": "modelled",
+        "text": "Computed by this dashboard's scenario model. Changes with the scenario and assumption dials."
+      },
+      {
+        "id": "judgement",
+        "text": "A score assigned by the analyst from the listed evidence, using the rubric on this page."
+      }
+    ],
+    "model": [
+      {
+        "name": "Three paths per measure",
+        "text": "Each measure has a conservative, base and accelerated value for 2027 to 2030. Paths are anchored on published forecasts where they exist and say so where they do not."
+      },
+      {
+        "name": "Adoption pace dial",
+        "text": "Blends between paths on a log scale. 0 is conservative, 50 is base, 100 is accelerated. The three buttons set it to 15, 50 and 85."
+      },
+      {
+        "name": "Friction dial",
+        "text": "Shifts transaction measures later by up to 18 months, standing in for slow dispute rules, fraud losses or weak consumer trust. Only measures marked friction-sensitive respond."
+      },
+      {
+        "name": "Between years",
+        "text": "Values between yearly points are interpolated on a log scale, which is what a constant growth rate within each year looks like."
+      },
+      {
+        "name": "Sectors and technologies",
+        "text": "Scores and arrival years move one step, or half a year, with the scenario. They are judgement, not model output."
+      }
+    ],
+    "rubric": [
+      [
+        0,
+        "No visible agent activity."
+      ],
+      [
+        1,
+        "Pilots and funding, no measurable share of activity."
+      ],
+      [
+        2,
+        "Agents measurable in discovery or traffic, under 1% of transactions."
+      ],
+      [
+        3,
+        "Agents shape discovery for a meaningful share of customers and transactions are starting."
+      ],
+      [
+        4,
+        "Agents are a primary channel and carry a material share of transactions or operations."
+      ],
+      [
+        5,
+        "The agent is the default buyer or user, and vendors compete to be chosen by it."
+      ]
+    ],
+    "limits": [
+      "Several article figures have no link in the original. The most likely source is shown and marked partly confirmed.",
+      "Agent traffic shares come from single vendors measuring their own networks. They are not the whole web.",
+      "Bot traffic and AI agent traffic are different things. Most automated traffic is still ordinary bots.",
+      "Forecasters use different definitions of agentic commerce (executed, influenced, orchestrated), which explains most of the fivefold spread for 2030.",
+      "No published forecast was found for agent identity market size, agent-driven fraud losses or a yearly AI share of code. None is charted.",
+      "Some figures were read through trade press because the original was paywalled or unreachable. Those sources name both.",
+      "a16z has announced an investment in Wabi, one of the consumer agents the article names."
+    ],
+    "cadence": "Updated monthly. Each edition replaces one data file, re-verifies the previous edition's figures and records what changed here."
+  },
+  "qa": {
+    "data": [
+      {
+        "status": "pass",
+        "check": "Structure.",
+        "result": "Every source reference resolves, ids are unique and all counts match the update log."
+      },
+      {
+        "status": "pass",
+        "check": "Model arithmetic.",
+        "result": "Conservative, base and accelerated paths are ordered and rising for all six measures, and an independent re-implementation reproduced the base values."
+      },
+      {
+        "status": "pass",
+        "check": "Source spot-check.",
+        "result": "68 figures matched the cited documents, including every number taken from the a16z article."
+      },
+      {
+        "status": "fixed",
+        "check": "Headline commerce measure.",
+        "result": "Relabelled from sales completed on AI platforms to sales driven through them, which is what EMARKETER measures. Its revised 2030 figure was added and now sets the conservative path."
+      },
+      {
+        "status": "fixed",
+        "check": "Attribution.",
+        "result": "A shopper survey was wrongly credited to Similarweb, one risk merged two surveys under one source, and three series pointed at documents that held only part of their data. All re-sourced."
+      },
+      {
+        "status": "fixed",
+        "check": "Unsupported claims.",
+        "result": "A two-week claim about Meta Muse and two dated claims about Amazon blocking it had no cited source. Replaced with a sourced figure or removed."
+      },
+      {
+        "status": "fixed",
+        "check": "Evidence class and dates.",
+        "result": "One Gartner market figure was marked reported and is now an estimate. Seven source dates corrected."
+      },
+      {
+        "status": "open",
+        "check": "Bots versus agents.",
+        "result": "Cloudflare's 57.4% is described as bots by its CEO and as AI agents in press coverage. Shown as partly confirmed."
+      },
+      {
+        "status": "open",
+        "check": "Not opened.",
+        "result": "Twelve figures could not be found on the page cited and 19 funding items were not re-checked this edition. OpenAI's own pages were unreachable."
+      }
+    ],
+    "ux": [
+      {
+        "status": "pass",
+        "check": "Layout.",
+        "result": "No sideways scrolling or clipped text at 390, 768, 1024 and 1440 pixels, in light and dark, across all six palettes."
+      },
+      {
+        "status": "pass",
+        "check": "Controls.",
+        "result": "Year, scenario, both assumption dials, play, filters, hash links and the dataset copy button all work without errors."
+      },
+      {
+        "status": "fixed",
+        "check": "Forecaster dots.",
+        "result": "They could not be clicked with a mouse because an invisible layer sat on top. Reordered."
+      },
+      {
+        "status": "fixed",
+        "check": "Every number traceable.",
+        "result": "Headline tiles and chart values did not open a source. They now open the source, or the method for modelled values."
+      },
+      {
+        "status": "fixed",
+        "check": "Contrast.",
+        "result": "Heatmap text failed AA on levels 4 and 5 in several palettes and the dark ramp was not ordered. Ramp rebuilt per theme."
+      },
+      {
+        "status": "fixed",
+        "check": "Scenario logic.",
+        "result": "Accelerated had no effect on technologies, conservative pushed sector scores below today's, and friction moved the path outside its band. All three corrected."
+      },
+      {
+        "status": "fixed",
+        "check": "Number formats.",
+        "result": "1,000M now reads 1B, share changes show points, and missing years say no data."
+      },
+      {
+        "status": "fixed",
+        "check": "Keyboard and screen readers.",
+        "result": "Drawer now holds focus and locks the page behind it. Navigation, heatmap rows and tooltip use correct roles."
+      },
+      {
+        "status": "open",
+        "check": "Still to do.",
+        "result": "Year and scenario are not remembered after a reload, and there is no skip link to the timeline bar."
+      }
+    ]
+  },
+  "changelog": [
+    {
+      "version": "2026.11",
+      "date": "Nov 11, 2026",
+      "text": "First edition. 26 signals, 6 context series, 6 modelled measures with 19 further published forecasts, 12 sectors and 15 technology areas."
+    }
+  ]
+}

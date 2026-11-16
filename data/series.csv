@@ -1,0 +1,32 @@
+edition,series_id,title,unit,period,value,evidence_class,source_id,source_url
+2026.11,wau,ChatGPT weekly active users,M,Nov 23,100,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Aug 24,200,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Dec 24,300,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Feb 25,400,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Aug 25,700,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Oct 25,800,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Feb 26,900,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,wau,ChatGPT weekly active users,M,Sep 26,1200,reported,chatgpt_hist,https://backlinko.com/chatgpt-stats
+2026.11,journeys,Shopper journeys that pass through AI first,%,Jul 24,4.5,reported,similarweb_journey,https://links.me/blog/ai/state-of-ecommerce-2026-ai-shopper-journey/
+2026.11,journeys,Shopper journeys that pass through AI first,%,Jan 25,6.1,reported,similarweb_journey,https://links.me/blog/ai/state-of-ecommerce-2026-ai-shopper-journey/
+2026.11,journeys,Shopper journeys that pass through AI first,%,Jul 25,9.1,reported,similarweb_journey,https://links.me/blog/ai/state-of-ecommerce-2026-ai-shopper-journey/
+2026.11,journeys,Shopper journeys that pass through AI first,%,Jan 26,9.9,reported,similarweb_journey,https://links.me/blog/ai/state-of-ecommerce-2026-ai-shopper-journey/
+2026.11,journeys,Shopper journeys that pass through AI first,%,Jun 26,11.4,reported,similarweb_journey,https://links.me/blog/ai/state-of-ecommerce-2026-ai-shopper-journey/
+2026.11,operators,Which agents are doing the browsing,%,Muse,59,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,operators,Which agents are doing the browsing,%,ChatGPT,15.9,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,operators,Which agents are doing the browsing,%,Codex,8.8,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,operators,Which agents are doing the browsing,%,Codex ext,5.2,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,operators,Which agents are doing the browsing,%,Comet,3.6,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,operators,Which agents are doing the browsing,%,Claude,3.5,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,operators,Which agents are doing the browsing,%,Other,3.9,reported,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,commits,GitHub commits per year,B,2024,10,reported,github_octoverse,https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
+2026.11,commits,GitHub commits per year,B,2025,12.9,reported,github_octoverse,https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
+2026.11,commits,GitHub commits per year,B,2026,34.3,reported,github_octoverse,https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
+2026.11,imperva,Automated share of web traffic,%,2022,47.4,reported,imperva_2026,https://www.imperva.com/blog/bad-bot-report-2026-bots-agentic-age/
+2026.11,imperva,Automated share of web traffic,%,2023,49.6,reported,imperva_2026,https://www.imperva.com/blog/bad-bot-report-2026-bots-agentic-age/
+2026.11,imperva,Automated share of web traffic,%,2024,51,reported,imperva_2026,https://www.imperva.com/blog/bad-bot-report-2026-bots-agentic-age/
+2026.11,imperva,Automated share of web traffic,%,2025,53,reported,imperva_2026,https://www.imperva.com/blog/bad-bot-report-2026-bots-agentic-age/
+2026.11,adobe,AI-referred retail traffic: growth is slowing,%,Hol 25,693,reported,adobe_oct,https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday
+2026.11,adobe,AI-referred retail traffic: growth is slowing,%,Q1 26,393,reported,adobe_oct,https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday
+2026.11,adobe,AI-referred retail traffic: growth is slowing,%,Jul 26,62,reported,adobe_oct,https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday
+2026.11,adobe,AI-referred retail traffic: growth is slowing,%,Sep 26,71,reported,adobe_oct,https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday

@@ -1,0 +1,29 @@
+edition,technology_id,item,value,date,source_id,source_url
+2026.11,backend,Supabase Series F,$500M,Jun 2026,supabase_f,https://supabase.com/blog/supabase-series-f
+2026.11,backend,"Daytona Series B, $1B valuation",$60M,Oct 2026,daytona,https://pulse2.com/daytona-raises-60-million-series-b-at-1-billion-valuation-to-build-agent-cloud-infrastructure/
+2026.11,fraud,Agentic traffic growth in 2025,"+7,851%",2025,human_2025,https://www.humansecurity.com/newsroom/2026-state-of-ai-traffic-cyberthreat-benchmark-report/
+2026.11,fraud,Kasada round,$20M,Feb 2026,kasada,https://pulse2.com/kasada-20-million-raised-for-bot-management-and-agentic-defense-platform/
+2026.11,fraud,Fraud signals missing in in-chat checkout,up to 34%,2026,riskified,https://thepaypers.com/fraud-and-fincrime/expert-views/agentic-ecommerce-five-things-a-new-report-reveals-about-risk
+2026.11,observability,Braintrust Series B,$80M,Feb 2026,braintrust,https://www.pulse.bot/ai/news/braintrust-lands-80m-funding-round-to-become-the-observability-layer-for-ai-c2222350-8fba-4702-bb11-eb33d5112749
+2026.11,feeds,Parallel Web Systems Series B,$100M,Apr 2026,parallel,https://pulse2.com/parallel-web-systems-100-million-series-b-at-2-billion-valuation-raised-to-scale-ai-agent-web-infrastructure/amp/
+2026.11,feeds,Shopify catalog-powered AI search converts vs general AI search,2x,Q1 2026,shopify_q1,https://www.digitalcommerce360.com/2026/05/06/shopify-revenue-gmv-ai-q1-fy26/
+2026.11,geo,"Profound Series D, $1.8B valuation",$180M,Sep 2026,profound_d,https://enterprisedna.co/resources/news/profound-aeo-180m-series-d-ai-search-marketing-2026
+2026.11,geo,llms.txt files that get no AI requests,97%,2026,llms_ppc,https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/
+2026.11,comms,"Sierra round, $15B valuation",$950M,May 2026,sierra,https://www.cmswire.com/customer-experience/sierra-raises-950m-at-15b-valuation-eyes-transformation-beyond-customer-support/
+2026.11,comms,ElevenLabs Series D,$500M,Feb 2026,elevenlabs,https://siliconangle.com/2026/02/04/voice-ai-startup-elevenlabs-triples-valuation-500m-round/
+2026.11,comms,AgentMail seed,$6M,Mar 2026,agentmail,https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/
+2026.11,edge,Cloudflare revenue growth,+39%,Q3 2026,cloudflare_q3,https://ppc.land/cloudflare-revenue-gains-39-to-782-5m-fastest-growth-in-nearly-four-years/
+2026.11,edge,Extra traffic per agent-run task,up to 450%,May 2026,cisco_comsoc,https://techblog.comsoc.org/2026/05/26/cisco-report-agentic-ai-to-reshape-wan-traffic-ai-inference-will-be-25-of-total-traffic-by-2035/
+2026.11,payments,Tempo mainnet and Machine Payments Protocol live,$5B valuation,Mar 2026,tempo_fortune,https://fortune.com/2026/03/18/stripe-tempo-paradigm-mpp-ai-payments-protocol/
+2026.11,payments,Catena Labs Series A,$30M,May 2026,catena,https://fortune.com/2026/05/20/catena-labs-series-a-sean-neville-ai-native-bank/
+2026.11,payments,"x402 transactions on Base, 87% under 10 cents",138M+,Q3 2026,chainalysis_x402,https://aiweekly.co/alerts/chainalysis-138m-base-x402-bot-payments-87-under-10-cents
+2026.11,identity,Descope seed extension,$35M,Oct 2025,descope,https://www.bankinfosecurity.com/descope-gets-35m-for-ai-agent-identity-controls-governance-a-29624
+2026.11,identity,Web Bot Auth working-group draft,draft 01,Oct 2026,ietf_wba,https://www.ietf.org/ietf-ftp/internet-drafts/draft-ietf-webbotauth-httpsig-protocol-01.html
+2026.11,protocols,Servers in the official MCP registry,"52,141",Oct 2026,mcp_registry,https://eseospace.com/blog/state-of-mcp-october-2026/
+2026.11,protocols,Public UCP implementations found in 3M+ sites,26,May 2026,ucp26,https://ppc.land/only-26-sites-have-implemented-ucp-and-the-big-names-arent-among-them/
+2026.11,marketplaces,Public MCP servers that are monetised,under 5%,H1 2026,serpapi_mcp,https://serpapi.com/blog/the-state-of-mcp-everything-that-changed-in-h1-2026/
+2026.11,browsers,Muse share of observed agentic requests,59%,Oct 2026,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,browsers,OpenAI closed its Atlas browser,shut down,Aug 2026,atlas_shut,https://letsdatascience.com/news/openai-shutters-atlas-folds-features-into-chatgpt-2116216f
+2026.11,memory,Mem0 seed and Series A,$24M,Oct 2025,mem0,https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/
+2026.11,ondevice,"Apple Siri AI announced, EU excluded at launch",announced,Jun 2026,apple_siri,https://siliconangle.com/2026/06/08/apple-debuts-siri-ai-personal-assistant-built-gemini/
+2026.11,pricing,Real commercial volume on x402,about $28k a day,Mar 2026,forkast_x402,https://forkast.news/the-x402-foundation-activated-a-27-year-old-internet-code-200-million-transactions-later-the-real-volume-is-still-tiny/

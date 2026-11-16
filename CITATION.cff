@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset or methodology, please cite it as below."
+title: "B2A Economy: open dataset and methodology on the business-to-agent economy"
+type: dataset
+authors:
+  - family-names: Calcagno
+    given-names: Andrea
+version: "2026.11"
+date-released: "2026-11-11"
+license: CC-BY-4.0
+repository-code: "https://github.com/andcalcagnonyc/b2a"
+url: "https://claude.ai/artifact/3SZtPVT6e7Yy5D3jh7FhXu"
+keywords:
+  - AI agents
+  - agentic commerce
+  - business-to-agent
+  - forecasts

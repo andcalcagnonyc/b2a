@@ -1,0 +1,83 @@
+edition,measure_id,measure,unit,year,kind,scenario,value,evidence_class,source_id,friction_sensitive
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2025,history,,5.2,estimate,emarketer_ac,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2026,history,,19.74,estimate,emarketer_ac,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2027,path,conservative,32,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2028,path,conservative,55,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2029,path,conservative,90,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2030,path,conservative,134,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2027,path,base,42,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2028,path,base,80,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2029,path,base,130,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2030,path,base,190,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2027,path,accelerated,55,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2028,path,accelerated,125,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2029,path,accelerated,250,modelled,,true
+2026.11,us_agentic,US e-commerce sales driven through AI platforms,$B,2030,path,accelerated,450,modelled,,true
+2026.11,bots,Automated share of web traffic,%,2025,history,,53,reported,imperva_2026,false
+2026.11,bots,Automated share of web traffic,%,2026,history,,57.4,estimate,cloudflare_june,false
+2026.11,bots,Automated share of web traffic,%,2027,path,conservative,58,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2028,path,conservative,58.8,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2029,path,conservative,59.4,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2030,path,conservative,60,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2027,path,base,59.5,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2028,path,base,61.5,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2029,path,base,63.5,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2030,path,base,65,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2027,path,accelerated,61,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2028,path,accelerated,65,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2029,path,accelerated,69,modelled,,false
+2026.11,bots,Automated share of web traffic,%,2030,path,accelerated,72,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2025,history,,25,estimate,idc_agents,false
+2026.11,agents,AI agents in active deployment,M,2027,path,conservative,110,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2028,path,conservative,250,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2029,path,conservative,550,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2030,path,conservative,900,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2027,path,base,160,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2028,path,base,420,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2029,path,base,1000,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2030,path,base,1800,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2027,path,accelerated,220,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2028,path,accelerated,700,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2029,path,accelerated,1800,modelled,,false
+2026.11,agents,AI agents in active deployment,M,2030,path,accelerated,4000,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2025,history,,8.3,estimate,tbrc_agents,false
+2026.11,market,Standalone AI agent software market,$B,2026,history,,12.1,estimate,tbrc_agents,false
+2026.11,market,Standalone AI agent software market,$B,2027,path,conservative,16,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2028,path,conservative,21.5,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2029,path,conservative,28,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2030,path,conservative,35,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2027,path,base,18,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2028,path,base,26,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2029,path,base,37,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2030,path,base,52,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2027,path,accelerated,20,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2028,path,accelerated,32,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2029,path,accelerated,50,modelled,,false
+2026.11,market,Standalone AI agent software market,$B,2030,path,accelerated,78,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2026,history,,40,reported,github_octoverse,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2027,path,conservative,46,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2028,path,conservative,52,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2029,path,conservative,57,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2030,path,conservative,62,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2027,path,base,55,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2028,path,base,66,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2029,path,base,74,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2030,path,base,80,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2027,path,accelerated,62,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2028,path,accelerated,76,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2029,path,accelerated,85,modelled,,false
+2026.11,prs,Share of GitHub pull requests started by agents,%,2030,path,accelerated,90,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2025,history,,1765,estimate,gartner_spend_may,false
+2026.11,aispend,Worldwide AI spending,$B,2026,history,,2670,estimate,gartner_2q26,false
+2026.11,aispend,Worldwide AI spending,$B,2027,path,conservative,3300,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2028,path,conservative,3800,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2029,path,conservative,4300,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2030,path,conservative,4750,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2027,path,base,3631,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2028,path,base,4394,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2029,path,base,5185,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2030,path,base,5962,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2027,path,accelerated,3900,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2028,path,accelerated,5000,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2029,path,accelerated,6100,modelled,,false
+2026.11,aispend,Worldwide AI spending,$B,2030,path,accelerated,7200,modelled,,false

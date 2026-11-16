@@ -1,0 +1,35 @@
+edition,sector_id,metric,value,date,source_id,source_url
+2026.11,software,Pull requests started by agents,40%+,Sep 2026,github_octoverse,https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
+2026.11,software,New Supabase databases launched by AI tools,60%+,Jun 2026,supabase_f,https://supabase.com/blog/supabase-series-f
+2026.11,software,Stripe CLI requests from agents,70%,Jun 2026,stripe_projects,https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls
+2026.11,media,Google Search referrals to publishers,−40.2%,year to Jul 2026,chartbeat,https://www.relevantaudience.com/seo/chartbeat-google-search-publisher-traffic-down-40-percent/
+2026.11,media,"Media share of agentic traffic, largest sector that month",43.5%,Jul 2026,human_jul,https://www.humansecurity.com/learn/blog/state-of-agentic-traffic-july-2026-publishers-claim-highest-share-of-agentic-traffic/
+2026.11,media,Weekly traffic lost by news publishers that blocked AI crawlers (Rutgers and Wharton study),about 7%,2026,llms_ppc,https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/
+2026.11,retail,AI-referred visits convert better than other visits,+90%,Sep 2026,adobe_oct,https://business.adobe.com/blog/ai-traffic-higher-revenue-per-visit-retail-holiday
+2026.11,retail,"Shopify orders from AI search, year over year",3.3x,Q3 2026,shopify_q3,https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/
+2026.11,retail,Agentic requests that reach checkout or payment,1.9%,Oct 2026,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,retail,Walmart checkout inside ChatGPT vs click-out,3x lower,Mar 2026,walmart_ppc,https://ppc.land/walmarts-chatgpt-checkout-flopped-heres-what-comes-next/
+2026.11,ads,"US AI ad spend, 2026 to 2030",$32B to $68B,Jun 2026,emarketer_ads,https://ppc.land/emarketer-says-us-ai-ad-spend-hits-68bn-by-2030-and-chatgpt-misses-most-of-it/
+2026.11,ads,ChatGPT advertisers,100k+,Oct 2026,digiday_chatgpt,https://digiday.com/marketing/chatgpt-is-about-to-show-brands-their-mention-count/
+2026.11,ads,"Profound Series D, GEO platform",$180M,Sep 2026,profound_d,https://enterprisedna.co/resources/news/profound-aeo-180m-series-d-ai-search-marketing-2026
+2026.11,finance,"Global bank profits at risk, most likely scenario",$170B,Oct 2025,mckinsey_bank,https://www.americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey
+2026.11,finance,Real commercial volume on x402,about $28k a day,Mar 2026,forkast_x402,https://forkast.news/the-x402-foundation-activated-a-27-year-old-internet-code-200-million-transactions-later-the-real-volume-is-still-tiny/
+2026.11,finance,US consumers who trust generative AI with payments (Visa report),23%,2026,forkast_europe,https://forkast.news/europe-has-agent-payment-rails-live-across-30-banks-the-us-is-still-debating-who-pays-when-they-break/
+2026.11,travel,US travellers using generative AI for trip research,33%,2026,phocuswright,https://www.phocuswire.com/ai-surge-us-behavioral-shift-travel-phocuswright-research-2026
+2026.11,travel,Comfortable letting AI handle the booking,8%,Apr 2026,expedia_skift,https://skift.com/2026/04/14/expedia-ai-survey-travel-discovery-booking-8-percent/
+2026.11,travel,Travel share of agentic traffic,19.3%,Oct 2026,human_oct,https://www.humansecurity.com/learn/blog/october-2026-agentic-traffic/
+2026.11,pro,Harvey funding round (secondary source),$550M at $15.5B,Sep 2026,harvey,https://entrepreneurloop.com/harvey-ai-valuation-15-5b/
+2026.11,pro,Gartner: cut in cost-to-value gap of process-centric contracts,50%+ by 2027,Nov 2025,gartner_b2b,https://www.digitalcommerce360.com/2025/11/28/gartner-ai-agents-15-trillion-in-b2b-purchases-by-2028/
+2026.11,logistics,"C.H. Robinson: AI-recommended loads booked faster (company figure, best case)",4x,Mar 2026,chrobinson,https://www.chrobinson.com/en-us/about-us/newsroom/press-releases/2026/100-trillion-data-points-fuel-chrobinson-agentic-supply-chains/
+2026.11,logistics,C.H. Robinson: more on-time pickups (best case),up to 35%,Mar 2026,chrobinson,https://www.chrobinson.com/en-us/about-us/newsroom/press-releases/2026/100-trillion-data-points-fuel-chrobinson-agentic-supply-chains/
+2026.11,telecom,Extra traffic per task when an agent executes it,up to 450%,May 2026,cisco_comsoc,https://techblog.comsoc.org/2026/05/26/cisco-report-agentic-ai-to-reshape-wan-traffic-ai-inference-will-be-25-of-total-traffic-by-2035/
+2026.11,telecom,Growth in daily AI-agent requests on Cloudflare,"+1,700%",Jun 2025 to May 2026,cloudflare_q3,https://ppc.land/cloudflare-revenue-gains-39-to-782-5m-fastest-growth-in-nearly-four-years/
+2026.11,telecom,Cloudflare revenue growth,+39%,Q3 2026,cloudflare_q3,https://ppc.land/cloudflare-revenue-gains-39-to-782-5m-fastest-growth-in-nearly-four-years/
+2026.11,smb,Small-business workers using AI at work,about half,Jun 2026,uschamber,https://www.uschamberfoundation.org/workforce/half-of-small-business-workers-use-ai-most-to-boost-productivity-not-automate-jobs
+2026.11,smb,AI users automating workflows with little human involvement,6%,Jun 2026,uschamber,https://www.uschamberfoundation.org/workforce/half-of-small-business-workers-use-ai-most-to-boost-productivity-not-automate-jobs
+2026.11,smb,AI-attributed Shopify purchases outside the top 100 categories,about 74%,Q3 2026,shopify_q3,https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/
+2026.11,b2b,Gartner: B2B spend intermediated by agents by 2028,over $15T,Nov 2025,gartner_b2b,https://www.digitalcommerce360.com/2025/11/28/gartner-ai-agents-15-trillion-in-b2b-purchases-by-2028/
+2026.11,b2b,Forrester: B2B decisions influenced by agents in 2027,75%,Oct 2026,forrester_b2b,https://www.forrester.com/press-newsroom/forresters-2027-b2b-go-to-market-predictions-ai-agents-will-influence-75-of-b2b-purchase-decisions/
+2026.11,b2b,"Natural Series A, B2B agent payments",$30M,Jul 2026,natural,https://fintech.global/2026/07/21/natural-raises-30m-to-power-payments-for-ai-agents/
+2026.11,health,Assort Health Series C,$120M at $1.2B,Jun 2026,assort,https://www.healthcareittoday.com/2026/07/06/assort-health-raises-120-million-series-c-telepatia-raises-33-million-series-a/
+2026.11,health,"Agentic traffic to healthcare sites, month over month",+11.6%,Jul 2026,human_jul,https://www.humansecurity.com/learn/blog/state-of-agentic-traffic-july-2026-publishers-claim-highest-share-of-agentic-traffic/

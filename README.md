@@ -10,6 +10,33 @@ It starts from a16z's essay [Welcome to the B2A Economy](https://www.a16z.news/p
 
 Designed by [Andrea Calcagno](https://www.linkedin.com/in/andreacalcagno/).
 
+The dataset and the methodology are open: free to use, share and adapt with credit (CC BY 4.0).
+
+## Open dataset
+
+Everything the dashboard shows is available in `data/`, rebuilt for each edition.
+
+| File | Rows | Contents |
+|---|---|---|
+| `b2a-dataset.json` | | The complete dataset in one file |
+| `signals.csv` | 26 | Actuals with value, period, evidence class, verification status and source |
+| `series.csv` | 31 | Context time series |
+| `model_scenarios.csv` | 82 | History and the conservative, base and accelerated paths for each modelled measure |
+| `published_forecasts.csv` | 31 | Third-party forecasts as stated, with publisher and scope |
+| `sectors.csv` | 12 | Impact scores by year for each industry |
+| `sector_evidence.csv` | 34 | The evidence behind each sector |
+| `technologies.csv` | 15 | Technology areas, maturity and mainstream year |
+| `technology_traction.csv` | 28 | Funding and adoption items by technology |
+| `sources.csv` | 91 | Every document cited |
+
+Every CSV row carries its edition. Source ids link each table to `sources.csv`.
+
+How the data is collected, classified, modelled and reviewed is in [METHODOLOGY.md](METHODOLOGY.md).
+
+To cite: *B2A Economy dataset, edition 2026.11, by Andrea Calcagno. https://github.com/andcalcagnonyc/b2a. CC BY 4.0.* A `CITATION.cff` file is included.
+
+Found an error? Open an issue with the figure and a link to the source you believe is right.
+
 ## What is in the dashboard
 
 | View | Contents |
@@ -38,10 +65,16 @@ Every number carries one of five marks.
 ## Repository layout
 
 ```
-index.html            The page: layout, styles, charts and interaction. No build step.
-data.js               The dataset. The only file that changes in a monthly update.
-scripts/validate.mjs  Structural and arithmetic checks for data.js.
+index.html              The page: layout, styles, charts and interaction. No build step.
+data.js                 The dataset the page reads. The single source of truth.
+data/                   The open dataset: one JSON file and nine CSV tables, generated from data.js.
+METHODOLOGY.md          How the data is collected, classified, modelled and reviewed.
+scripts/validate.mjs    Structural and arithmetic checks for data.js.
+scripts/export.mjs      Builds data/ from data.js.
 docs/UPDATE_RUNBOOK.md  Step-by-step procedure for the monthly edition.
+LICENSE                 MIT, for the code.
+LICENSE-DATA.md         CC BY 4.0, for the dataset and methodology.
+CITATION.cff            Citation metadata.
 ```
 
 The page loads [D3 7.9.0](https://d3js.org) from cdnjs and the Geist typeface from Google Fonts. Everything else is in the two files.
@@ -56,10 +89,11 @@ python3 -m http.server 8000
 
 Then visit http://localhost:8000.
 
-Validate the dataset after any edit:
+After any edit to `data.js`, validate it and rebuild the open dataset:
 
 ```
 node scripts/validate.mjs
+node scripts/export.mjs
 ```
 
 ## The dataset
@@ -101,6 +135,11 @@ Each edition is produced by a team of AI agents with separate roles (article ana
 - The dashed lines and the sector and technology scores are this project's own model and judgement.
 
 This is an analytical product, not investment advice.
+
+## Licence
+
+- Dataset and methodology: [CC BY 4.0](LICENSE-DATA.md). Third-party figures remain the work of the publishers named in each source entry.
+- Code: [MIT](LICENSE).
 
 ## Credits
 
